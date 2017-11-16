@@ -89,7 +89,7 @@
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://dn-quericyblog.qbox.me/wp-content/uploads/2015/06/one-key-install-ikev2-vpn-150x150.jpg">
 <meta property="og:image" content="https://dn-quericyblog.qbox.me/wp-content/uploads/2015/06/ikev2_VPN_install-150x150.jpg">
-<meta property="og:updated_time" content="2017-11-16T17:05:51.551Z">
+<meta property="og:updated_time" content="2017-11-16T17:15:18.502Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="CentOS&#x2F;Ubuntu一键安装IPSEC&#x2F;IKEV2 VPN服务器">
 <meta name="twitter:description" content="买了香港或者国外的VPS不用来做科(V)学(P)上(N)网，简直太浪费了。这篇文章整理成了一份一键安装的脚本。适用于WindowsPhone,iOS,Android和PC设备。有需要的童鞋可以拿来食用~ ~ ~ ~ CentOS测试了下貌似没什么问题，Ubuntu的手里暂时没有空闲vps就没试了，其实也差不多的。">
@@ -400,8 +400,7 @@
 </li>
 <li><p><strong>Windows10</strong>也存在此bug,部分Win10系统连接后ip不变,没有自动添加路由表,使用以下方法可解决:</p>
 <ul>
-<li><p>手动关闭vpn的split tunneling功能(在远程网络上使用默认网关);</p>
-</li>
+<li>手动关闭vpn的split tunneling功能(在远程网络上使用默认网关);</li>
 <li><p>也可使用powershell修改,进入CMD窗口,运行如下命令:</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">powershell    #进入ps控制台</span><br><span class="line">get-vpnconnection    #检查vpn连接的设置（包括vpn连接的名称）</span><br><span class="line">set-vpnconnection &quot;vpn连接名称&quot; -splittunneling $false    #关闭split tunneling</span><br><span class="line">get-vpnconnection   #检查修改结果</span><br><span class="line">exit   #退出ps控制台</span><br></pre></td></tr></table></figure>
 </li>
