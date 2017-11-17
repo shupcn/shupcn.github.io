@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Shup</title>
+  
+  <subtitle>Motivate Intelligence</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://47.96.27.26/"/>
+  <updated>2017-11-16T14:47:06.340Z</updated>
+  <id>http://47.96.27.26/</id>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在阿里云VPS上部署Hexo</title>
+    <link href="http://47.96.27.26/2017/11/16/hexo.html"/>
+    <id>http://47.96.27.26/2017/11/16/hexo.html</id>
+    <published>2017-11-16T09:36:51.000Z</published>
+    <updated>2017-11-16T14:47:06.340Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;自双11购入了阿里云的VPS后，一直想着捯饬些什么，首当其冲的就是搭一个博客站点。之前使用过WordPress、Joomla、Drupal、国人的Typecho、Emlog、Zblog等。前几个国外的博客虽然功能、插件、模版丰富，但感觉略显臃肿，过多冗余之处，不适合做个人站点使用，尤其不适合笔者的1G1M的小水管主机。而国人的Typecho、Emlog感觉不错，安装使用简单、占用内存少、界面清新，没有多余的功能，支持Markdown，还原写作本质。但在使用中，出现不少小问题，细节不完善，影响实际体验，遂弃之。直到遇见了&lt;strong&gt;Hexo&lt;/strong&gt;……&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="http://47.96.27.26/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CentOS/Ubuntu一键安装IPSEC/IKEV2 VPN服务器</title>
+    <link href="http://47.96.27.26/2017/11/15/vpn.html"/>
+    <id>http://47.96.27.26/2017/11/15/vpn.html</id>
+    <published>2017-11-15T11:20:05.000Z</published>
+    <updated>2017-11-16T17:17:12.981Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;买了香港或者国外的VPS不用来做科(V)学(P)上(N)网，简直太浪费了。这篇文章整理成了一份一键安装的脚本。适用于WindowsPhone,iOS,Android和PC设备。有需要的童鞋可以拿来食用~ ~ ~ ~ CentOS测试了下貌似没什么问题，Ubuntu的手里暂时没有空闲vps就没试了，其实也差不多的。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="VPN" scheme="http://47.96.27.26/tags/VPN/"/>
+    
+  </entry>
+  
+</feed>
