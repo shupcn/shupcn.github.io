@@ -1932,7 +1932,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #01ff9c;
+  background: #4b4018;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2786,54 +2786,4 @@ embed {
 }
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
-}
-i.robot {
-  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/79/mask-icons-robot.svg"); /* Fallback */
-  background-position: 0 center, center;
-  background-image: -webkit-radial-gradient(50% 50%, 60% 80%, rgba(255,0,0,0.7), rgba(102,0,0,0.8) 60%, #300), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/79/mask-icons-metal.jpg");
-  mask-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/79/mask-icons-robot.svg"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/79/mask-icons-robot.svg");
-  mask-position: 0 0, -100px 13px;
-  mask-composite: source-over;
-  transition: mask-position 0.3s cubic-bezier(0.65, 0.06, 1, 0.42);
-}
-i.robot:hover {
-  mask-position: 0 0, -100px 0px;
-  transition: mask-position 0.2s cubic-bezier(0, 0.4, 0.2, 1);
-}
-i.robot:active {
-  mask-position: 0 0, -107px 0px;
-  transition: mask-position 0.1s cubic-bezier(0.44, 0.08, 0.1, 1);
-  animation: robot-active 0.1s 0.2s cubic-bezier(0.7, 0, 0.3, 1) infinite alternate;
-}
-@-moz-keyframes robot-active {
-  0% {
-    mask-position: 0 0, -107px 0px;
-  }
-  100% {
-    mask-position: 0 0, -93px 0px;
-  }
-}
-@-webkit-keyframes robot-active {
-  0% {
-    mask-position: 0 0, -107px 0px;
-  }
-  100% {
-    mask-position: 0 0, -93px 0px;
-  }
-}
-@-o-keyframes robot-active {
-  0% {
-    mask-position: 0 0, -107px 0px;
-  }
-  100% {
-    mask-position: 0 0, -93px 0px;
-  }
-}
-@keyframes robot-active {
-  0% {
-    mask-position: 0 0, -107px 0px;
-  }
-  100% {
-    mask-position: 0 0, -93px 0px;
-  }
 }
