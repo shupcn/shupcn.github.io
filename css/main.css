@@ -1943,7 +1943,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #6fff81;
+  background: #a3b305;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2759,7 +2759,7 @@ embed {
 .custom-logo-image {
   margin: 0 auto;
   padding: 5px;
-  max-width: 150px;
+  max-width: 120px;
   background: #fff;
 }
 @media (max-width: 767px) {
