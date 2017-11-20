@@ -1110,17 +1110,6 @@ pre .javascript .function {
     text-align: center;
   }
 }
-.brand {
-  position: relative;
-  display: inline-block;
-  padding: 0 40px;
-  color: #fff;
-  background: #222;
-  border-bottom: none;
-}
-.brand:hover {
-  color: #fff;
-}
 .logo {
   display: inline-block;
   margin-right: 5px;
@@ -1943,7 +1932,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #a3b305;
+  background: #c9b014;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2747,14 +2736,6 @@ embed {
 }
 .custom-logo .brand {
   background: none;
-}
-.custom-logo .site-title {
-  margin: 10px auto 0;
-  font-size: 24px;
-  color: #222;
-}
-.custom-logo .site-title a {
-  border: none;
 }
 .custom-logo-image {
   margin: 0 auto;
