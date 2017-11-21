@@ -274,24 +274,127 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://47.96.27.26/2017/11/21/cdn.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Shup">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://shupcd.test.upcdn.net/shup.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Shup">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-	<h1 class="post-title" itemprop="name headline">利用又拍云CDN加速Hexo博客</h1>
-
-
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
-          <p>辛辛苦苦搭建好博客，虽然Hexo本身是全静态网页，页面加载速度相对于动态博客程序已经是非常可观，但NexT主题调用了不少js文件，如果再加上其他的图片、音视频插件等等还是会在一定程度上造成延迟。本着折腾不止和完美主义的精神，用CDN来加速Hexo！</p>
+          <h1 class="post-title" itemprop="name headline">利用又拍云CDN加速Hexo博客</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-21T12:54:13+08:00">
+                2017-11-21
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017/11/21/cdn.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2017/11/21/cdn.html" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  2,170 字
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  9 分钟
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>辛辛苦苦搭建好博客，虽然Hexo本身是全静态网页，页面加载速度相对于动态博客程序已经是非常可观，但NexT主题调用了不少js文件，如果再加上其他的图片、音视频插件等等还是会在一定程度上造成延迟。本着折腾不止和完美主义的精神，用CDN来加速Hexo！</p>
 <a id="more"></a>
 <h1 id="CDN加速的原理"><a href="#CDN加速的原理" class="headerlink" title="CDN加速的原理"></a>CDN加速的原理</h1><p>这里简明扼要地解释一下CDN加速的原理：你上传到CDN加速网站(如<strong>又拍</strong>或者<strong>七牛</strong>)空间里的文件(或者网站)以镜像的形式存放到多台服务器，这些服务器分布在祖国甚至全世界各地，访问者就近读取较快的镜像，以实现快速加载的效果。举个栗子：你的文件(或网站)在上海，没有CDN，一个北京的访问者需要直接连接你在上海的服务器，有了CDN，这个北京的访问者只需要访问你的文件(网站)在北京的镜像即可。尤其是国内外的互访，CDN可使访问速度大大提升。</p>
 <h1 id="哪些因素会影响加载速度？"><a href="#哪些因素会影响加载速度？" class="headerlink" title="哪些因素会影响加载速度？"></a>哪些因素会影响加载速度？</h1><h2 id="js文件"><a href="#js文件" class="headerlink" title="js文件"></a>js文件</h2><p>js文件就是JavaScript脚本文件，用来实现各种酷炫的动态效果。一般是加载在html页面的<code>&lt;head&gt;</code>部分，所以页面加载速度首先要考虑这一块。Hexo的js文件大致包含以下3类：</p>
@@ -325,15 +428,116 @@
 <p>比如，你的文章里有本来有一张图片，图片地址为<code>http://xxx.com/123.jpg</code>。把这个图片上传到你的又拍云空间里，即可获得地址：<code>http://xxx.test.upcdn.net/123.jpg</code>，将此地址插入到文章中即可实现图片的CDN加速。而且后期还可以利用又拍云的云处理功能对图片增加缩略图、水印、防盗链，对音视频转解码，压缩等等。</p>
 <p>如果你理解以上的原理，可以将其他任何类型(一般加速图片，音频，视频，js，css等)的静态文件的转移到CDN上，从而将你的网站优化的更好。</p>
 
-        
-      </div>
-      
-      
       
     </div>
     
     
     
+
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div></div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechatpay.jpg" alt="Shup 微信支付"/>
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/alipay.jpg" alt="Shup 支付宝"/>
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者：</strong>
+    Shup
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="http://47.96.27.26/2017/11/21/cdn.html" title="利用又拍云CDN加速Hexo博客">http://47.96.27.26/2017/11/21/cdn.html</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>
+    本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+
+      </div>
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/CDN/" rel="tag"># CDN</a>
+          
+            <a href="/tags/Hexo/" rel="tag"># Hexo</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/11/16/hexo.html" rel="next" title="在阿里云VPS上部署Hexo">
+                <i class="fa fa-chevron-left"></i> 在阿里云VPS上部署Hexo
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/11/21/valine.html" rel="prev" title="使用Valine插件为Hexo博客添加评论功能">
+                使用Valine插件为Hexo博客添加评论功能 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
   </div>
 
 
