@@ -95,7 +95,7 @@
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://shupcd.test.upcdn.net/cdn/google-font-test.png">
 <meta property="og:image" content="http://shupcd.test.upcdn.net/cdn/comparison.png">
-<meta property="og:updated_time" content="2017-11-21T09:21:26.551Z">
+<meta property="og:updated_time" content="2017-11-21T09:27:33.303Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="利用又拍云CDN加速Hexo博客">
 <meta name="twitter:description" content="辛辛苦苦搭建好博客，虽然Hexo本身是全静态网页，页面加载速度相对于动态博客程序已经是非常可观，但NexT主题调用了不少js文件，如果再加上其他的图片、插件等等还是会一定程度上造成延迟。本着折腾不止和完美主义的精神，继续用CDN来加速Hexo的载入速度。">
@@ -385,11 +385,12 @@
 <li>修改引用源比较麻烦(哈哈~主要是因为这点)</li>
 </ul>
 <h2 id="功能插件js加速"><a href="#功能插件js加速" class="headerlink" title="功能插件js加速"></a>功能插件js加速</h2><p>同样道理，这些js文件若是存放在Hexo本地的，需要将他们上传到CDN加速网站的空间里；如果是外部引用，需要先将引用地址的原js文件下载下来，存放到CDN加速空间里。最后修改原引用地址到CDN加速空间地址。下面以又拍云的CDN加速空间为例介绍，注册开通很简单，这里略过。需要注意不管七牛还是又拍，注册时都需要上传手持身份证的照片进行身份核验。身份认证后即可开始操作，具体操作方案请参考官方<a href="https://docs.upyun.com/api/quick_start/" target="_blank" rel="external">文档</a>。简单说两句：创建的服务选择网页图片类型，然后添加操作员、密码即可，后面如有需要还可以绑定域名(需备案)，添加https等等。</p>
-<p>一切就绪后，下面以加速<code>valine.js</code>插件为例说明。Valine是一款评论插件，安装及配置请参考这里。安装并开启Valine后，我们打开<code>hexo\themes\next\layout\_third-party\comments\valine.js</code>可以看到如下代码：</p>
+<p>一切就绪后，下面以加速<code>valine.js</code>插件为例说明。<strong>Valine</strong>是一款评论插件，安装及配置请参考<a href="http://47.96.27.26/2017/11/21/valine.html">#使用Valine插件为Hexo博客添加评论功能</a>。</p>
+<p>安装并开启Valine后，我们打开<code>hexo\themes\next\layout\_third-party\comments\valine.js</code>可以看到如下代码：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src=&quot;//cdn1.lncld.net/static/js/3.0.4/av-min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">&lt;script src=&apos;//unpkg.com/valine/dist/Valine.min.js&apos;&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
 <p>可以看出Valine的运行是依赖以上2个外部js文件，我们来加速第二个js文件，修改第二个js文件的源为：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src=&quot;//XXX.test.upcdn.net/Valine.min.js&quot;&gt;&lt;/script&gt; # XXX改成你的又拍云服务名</span><br></pre></td></tr></table></figure>
-<p>然后，把<strong>原js文件</strong>、即<code>https://unpkg.com/valine/dist/Valine.min.js</code>下载下来，通过FTP工具(推荐<code>FileZilla</code>)上传到你的又拍云空间根目录里。</p>
+<p>然后，把<strong>原js文件</strong><code>Valine.min.js</code>、即<code>https://unpkg.com/valine/dist/Valine.min.js</code>下载下来，通过FTP工具(推荐<code>FileZilla</code>)上传到你的又拍云空间根目录里。</p>
 <p>这样，<code>Valine.min.js</code>这个文件就可以用又拍云进行CDN加速了。<code>Hexo g -d</code>查看效果吧。其他插件js加速理论上适用同样方法，关键是第一步要找到js文件正真的源引用地址。</p>
 <h2 id="图片加速"><a href="#图片加速" class="headerlink" title="图片加速"></a>图片加速</h2><p>其实如果以上的操作没有问题，图片的CDN加速也是同样的方法。</p>
 <p>比如，你的文章里有一张图片，图片地址为<code>http://xxx.com/123.jpg</code>。把这个图片上传到你的又拍云空间里，即可获得地址<code>http://xxx.test.upcdn.net/123.jpg</code>，将此地址插入到文章中即可实现图片的CDN加速。</p>
