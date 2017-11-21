@@ -16,15 +16,15 @@
     </url>
 
     <url>
-        <loc>http://47.96.27.26/tags/CDN/</loc>
-        <lastmod>2017-11-21T10:04:30.737Z</lastmod>
+        <loc>http://47.96.27.26/tags/Hexo/</loc>
+        <lastmod>2017-11-21T10:29:26.268Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://47.96.27.26/tags/Hexo/</loc>
-        <lastmod>2017-11-21T10:04:30.737Z</lastmod>
+        <loc>http://47.96.27.26/tags/CDN/</loc>
+        <lastmod>2017-11-21T10:29:26.268Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

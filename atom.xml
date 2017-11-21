@@ -41,7 +41,7 @@
     <link href="http://47.96.27.26/2017/11/21/cdn.html"/>
     <id>http://47.96.27.26/2017/11/21/cdn.html</id>
     <published>2017-11-21T04:54:13.000Z</published>
-    <updated>2017-11-21T10:04:30.737Z</updated>
+    <updated>2017-11-21T10:29:26.268Z</updated>
     
     <summary type="html">
     
@@ -50,9 +50,9 @@
     </summary>
     
     
-      <category term="CDN" scheme="http://47.96.27.26/tags/CDN/"/>
-    
       <category term="Hexo" scheme="http://47.96.27.26/tags/Hexo/"/>
+    
+      <category term="CDN" scheme="http://47.96.27.26/tags/CDN/"/>
     
   </entry>
   
