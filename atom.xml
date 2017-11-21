@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://47.96.27.26/"/>
-  <updated>2017-11-21T04:13:59.455Z</updated>
+  <updated>2017-11-21T06:03:31.893Z</updated>
   <id>http://47.96.27.26/</id>
   
   <author>
@@ -15,6 +15,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>利用又拍云CDN加速Hexo博客</title>
+    <link href="http://47.96.27.26/2017/11/21/cdn.html"/>
+    <id>http://47.96.27.26/2017/11/21/cdn.html</id>
+    <published>2017-11-21T04:54:13.000Z</published>
+    <updated>2017-11-21T06:03:31.893Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;辛辛苦苦搭建好博客，虽然Hexo本身是全静态网页，页面加载速度相对于动态博客程序已经是非常可观，但NexT主题调用了不少js文件，如果再加上其他的图片、插件等等还是会一定程度上造成延迟。本着折腾不止和完美主义的精神，继续用CDN来加速Hexo的载入速度。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="CDN" scheme="http://47.96.27.26/tags/CDN/"/>
+    
+  </entry>
   
   <entry>
     <title>在阿里云VPS上部署Hexo</title>
