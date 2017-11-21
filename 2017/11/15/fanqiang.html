@@ -393,13 +393,13 @@
 </blockquote>
 <h1 id="服务端安装说明"><a href="#服务端安装说明" class="headerlink" title="服务端安装说明"></a>服务端安装说明</h1><ol>
 <li><p>下载脚本:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget --no-check-certificate https://raw.githubusercontent.com/quericy/one-key-ikev2-vpn/master/one-key-ikev2.sh</span><br></pre></td></tr></table></figure>
+<figure class="highlight vim"><table><tr><td class="code"><pre><span class="line">wget --<span class="keyword">no</span>-check-certificate http<span class="variable">s:</span>//raw.githubusercontent.<span class="keyword">com</span>/quericy/one-key-ikev2-vpn/master/one-key-ikev2.<span class="keyword">sh</span></span><br></pre></td></tr></table></figure>
 <ul>
 <li>注:如需使用其他分支的脚本,请将上述url中的master修改为分支名称,各分支区别详见本页的<a href="http://47.96.27.26/2017/11/15/vpn.html#分支说明">分支说明</a>节点</li>
 </ul>
 </li>
 <li><p>运行脚本：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">chmod +x one-key-ikev2.sh</span><br><span class="line">bash one-key-ikev2.sh</span><br></pre></td></tr></table></figure>
+<figure class="highlight stata"><table><tr><td class="code"><pre><span class="line">chmod +x <span class="keyword">one</span>-key-ikev2.<span class="keyword">sh</span></span><br><span class="line">bash <span class="keyword">one</span>-key-ikev2.<span class="keyword">sh</span></span><br></pre></td></tr></table></figure>
 </li>
 <li><p>等待自动配置部分内容后，选择VPS类型（OpenVZ还是Xen、KVM），<strong>选错将无法成功连接，请务必核实服务器的类型</strong>。输入服务器ip或者绑定的域名(连接vpn时服务器地址将需要与此保持一致,如果是导入泛域名证书这里需要写<code>*.域名</code>的形式)；</p>
 </li>
@@ -445,7 +445,7 @@
 <ul>
 <li>手动关闭vpn的split tunneling功能(在远程网络上使用默认网关);</li>
 <li><p>也可使用powershell修改,进入CMD窗口,运行如下命令:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">powershell    #进入ps控制台</span><br><span class="line">get-vpnconnection    #检查vpn连接的设置（包括vpn连接的名称）</span><br><span class="line">set-vpnconnection &quot;vpn连接名称&quot; -splittunneling $false    #关闭split tunneling</span><br><span class="line">get-vpnconnection   #检查修改结果</span><br><span class="line">exit   #退出ps控制台</span><br></pre></td></tr></table></figure>
+<figure class="highlight dsconfig"><table><tr><td class="code"><pre><span class="line"><span class="string">powershell </span>   <span class="comment">#进入ps控制台</span></span><br><span class="line"><span class="built_in">get-vpnconnection</span>    <span class="comment">#检查vpn连接的设置（包括vpn连接的名称）</span></span><br><span class="line"><span class="built_in">set-vpnconnection</span> <span class="string">"vpn连接名称"</span> -<span class="string">splittunneling </span>$<span class="string">false </span>   <span class="comment">#关闭split tunneling</span></span><br><span class="line"><span class="built_in">get-vpnconnection</span>   <span class="comment">#检查修改结果</span></span><br><span class="line"><span class="string">exit </span>  <span class="comment">#退出ps控制台</span></span><br></pre></td></tr></table></figure>
 </li>
 </ul>
 </li>
@@ -454,7 +454,7 @@
 </ul>
 <h1 id="卸载方式"><a href="#卸载方式" class="headerlink" title="卸载方式"></a>卸载方式</h1><ol>
 <li><p>进入脚本所在目录的strongswan文件夹执行:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">make uninstall</span><br></pre></td></tr></table></figure>
+<figure class="highlight ebnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">make uninstall</span></span><br></pre></td></tr></table></figure>
 </li>
 <li><p>删除脚本所在目录的相关文件(one-key-ikev2.sh,strongswan.tar.gz,strongswan文件夹,my_key文件夹).</p>
 </li>
@@ -468,10 +468,10 @@
 </ul>
 <h1 id="部分问题解决方案"><a href="#部分问题解决方案" class="headerlink" title="部分问题解决方案"></a>部分问题解决方案</h1><ul>
 <li><p>ipsec启动问题：服务器重启后默认ipsec不会自启动，请命令手动开启,或添加/usr/local/sbin/ipsec start到自启动脚本文件中(如rc.local等)：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ipsec start</span><br></pre></td></tr></table></figure>
+<figure class="highlight crmsh"><table><tr><td class="code"><pre><span class="line">ipsec <span class="literal">start</span></span><br></pre></td></tr></table></figure>
 </li>
 <li><p>ipsec常用指令:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">ipsec start   #启动服务</span><br><span class="line">ipsec stop    #关闭服务</span><br><span class="line">ipsec restart #重启服务</span><br><span class="line">ipsec reload  #重新读取</span><br><span class="line">ipsec status  #查看状态</span><br><span class="line">ipsec --help  #查看帮助</span><br></pre></td></tr></table></figure>
+<figure class="highlight routeros"><table><tr><td class="code"><pre><span class="line">ipsec start   #启动服务</span><br><span class="line">ipsec stop    #关闭服务</span><br><span class="line">ipsec restart #重启服务</span><br><span class="line">ipsec reload  #重新读取</span><br><span class="line">ipsec status  #查看状态</span><br><span class="line">ipsec --help  #查看帮助</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>可连接但是无法访问网络：</p>
 <ul>
