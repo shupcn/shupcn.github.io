@@ -93,13 +93,13 @@
 <meta property="og:site_name" content="Shup">
 <meta property="og:description" content="买了香港或者国外的VPS不用来做科(V)学(P)上(N)网，简直太浪费了。这篇文章整理成了一份一键安装的脚本。适用于WindowsPhone,iOS,Android和PC设备。有需要的童鞋可以拿来食用~ ~ ~ ~ CentOS测试了下貌似没什么问题，Ubuntu的手里暂时没有空闲vps就没试了，其实也差不多的。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="https://dn-quericyblog.qbox.me/wp-content/uploads/2015/06/one-key-install-ikev2-vpn-150x150.jpg">
-<meta property="og:image" content="https://dn-quericyblog.qbox.me/wp-content/uploads/2015/06/ikev2_VPN_install-150x150.jpg">
-<meta property="og:updated_time" content="2017-11-20T14:29:30.224Z">
+<meta property="og:image" content="http://shupcd.test.upcdn.net/fanqiang/one-key-install-ikev2-vpn.jpg">
+<meta property="og:image" content="http://shupcd.test.upcdn.net/fanqiang/ikev2_VPN_install.jpg">
+<meta property="og:updated_time" content="2017-11-21T04:05:25.232Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="CentOS&#x2F;Ubuntu一键安装IPSEC&#x2F;IKEV2 科学上网[翻墙]服务器">
 <meta name="twitter:description" content="买了香港或者国外的VPS不用来做科(V)学(P)上(N)网，简直太浪费了。这篇文章整理成了一份一键安装的脚本。适用于WindowsPhone,iOS,Android和PC设备。有需要的童鞋可以拿来食用~ ~ ~ ~ CentOS测试了下貌似没什么问题，Ubuntu的手里暂时没有空闲vps就没试了，其实也差不多的。">
-<meta name="twitter:image" content="https://dn-quericyblog.qbox.me/wp-content/uploads/2015/06/one-key-install-ikev2-vpn-150x150.jpg">
+<meta name="twitter:image" content="http://shupcd.test.upcdn.net/fanqiang/one-key-install-ikev2-vpn.jpg">
 
 
 
@@ -401,8 +401,11 @@
 <li><p>运行脚本：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">chmod +x one-key-ikev2.sh</span><br><span class="line">bash one-key-ikev2.sh</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>等待自动配置部分内容后，选择VPS类型（OpenVZ还是Xen、KVM），<strong>选错将无法成功连接，请务必核实服务器的类型</strong>。输入服务器ip或者绑定的域名(连接vpn时服务器地址将需要与此保持一致,如果是导入泛域名证书这里需要写<code>*.域名</code>的形式)；<br><a href="https://dn-quericyblog.qbox.me/wp-content/uploads/2015/06/one-key-install-ikev2-vpn.jpg" target="_blank" rel="external"><img src="https://dn-quericyblog.qbox.me/wp-content/uploads/2015/06/one-key-install-ikev2-vpn-150x150.jpg" alt="one-key-install-ikev2-vpn"></a></p>
+<li><p>等待自动配置部分内容后，选择VPS类型（OpenVZ还是Xen、KVM），<strong>选错将无法成功连接，请务必核实服务器的类型</strong>。输入服务器ip或者绑定的域名(连接vpn时服务器地址将需要与此保持一致,如果是导入泛域名证书这里需要写<code>*.域名</code>的形式)；</p>
 </li>
+</ol>
+<p><img src="http://shupcd.test.upcdn.net/fanqiang/one-key-install-ikev2-vpn.jpg" alt="one-key-install-ikev2-vpn"></p>
+<ol>
 <li><p>选择使用使用证书颁发机构签发的SSL证书还是生成自签名证书：</p>
 <ul>
 <li>如果选择no,<code>使用自签名证书</code>（客户端如果使用IkeV2方式连接，将需要导入生成的证书并信任）则需要填写证书的相关信息(C,O,CN)，为空将使用默认值(default value)，确认无误后按任意键继续,后续安装过程中会出现输入两次pkcs12证书的密码的提示(可以设置为空)</li>
@@ -420,7 +423,7 @@
 </li>
 <li><p>看到install Complete字样即表示安装完成。默认用户名密码将以黄字显示，可根据提示自行修改配置文件中的用户名密码,多用户则在配置文件中按格式一行一个(多用户时用户名不能使用%any),保存并重启服务生效。</p>
 </li>
-<li><p>将提示信息中的证书文件ca.cert.pem拷贝到客户端，修改后缀名为.cer后导入。ios设备使用Ikev1无需导入证书，而是需要在连接时输入共享密钥，共享密钥即是提示信息中的黄字PSK.<br><a href="https://dn-quericyblog.qbox.me/wp-content/uploads/2015/06/ikev2_VPN_install.jpg" target="_blank" rel="external"><img src="https://dn-quericyblog.qbox.me/wp-content/uploads/2015/06/ikev2_VPN_install-150x150.jpg" alt="ikev2_VPN_install"></a></p>
+<li><p>将提示信息中的证书文件ca.cert.pem拷贝到客户端，修改后缀名为.cer后导入。ios设备使用Ikev1无需导入证书，而是需要在连接时输入共享密钥，共享密钥即是提示信息中的黄字PSK.<br><img src="http://shupcd.test.upcdn.net/fanqiang/ikev2_VPN_install.jpg" alt="ikev2_VPN_install"></p>
 </li>
 </ol>
 <h1 id="客户端配置说明"><a href="#客户端配置说明" class="headerlink" title="客户端配置说明"></a>客户端配置说明</h1><ul>
