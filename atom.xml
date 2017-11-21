@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://47.96.27.26/"/>
-  <updated>2017-11-21T06:53:43.878Z</updated>
+  <updated>2017-11-21T08:39:00.021Z</updated>
   <id>http://47.96.27.26/</id>
   
   <author>
@@ -17,11 +17,31 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>使用Valine插件为Hexo博客添加评论功能</title>
+    <link href="http://47.96.27.26/2017/11/21/valine.html"/>
+    <id>http://47.96.27.26/2017/11/21/valine.html</id>
+    <published>2017-11-21T07:52:03.000Z</published>
+    <updated>2017-11-21T08:39:00.021Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;试用过Hexo内置的多说、畅言、有言、disqus、gitment等评论系统后，还是觉得Valine最好、最适合Hexo的风格。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="http://47.96.27.26/tags/Hexo/"/>
+    
+      <category term="Valine" scheme="http://47.96.27.26/tags/Valine/"/>
+    
+  </entry>
+  
+  <entry>
     <title>利用又拍云CDN加速Hexo博客</title>
     <link href="http://47.96.27.26/2017/11/21/cdn.html"/>
     <id>http://47.96.27.26/2017/11/21/cdn.html</id>
     <published>2017-11-21T04:54:13.000Z</published>
-    <updated>2017-11-21T06:53:43.878Z</updated>
+    <updated>2017-11-21T09:18:59.407Z</updated>
     
     <summary type="html">
     

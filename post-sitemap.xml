@@ -8,7 +8,15 @@
 
     <url>
         <loc>http://47.96.27.26/2017/11/21/cdn.html</loc>
-        <lastmod>2017-11-21T06:53:43.878Z</lastmod>
+        <lastmod>2017-11-21T09:18:59.407Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://47.96.27.26/2017/11/21/valine.html</loc>
+        <lastmod>2017-11-21T08:39:00.021Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
