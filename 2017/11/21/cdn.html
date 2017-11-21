@@ -85,20 +85,20 @@
 
 
 
-<meta name="description" content="辛辛苦苦搭建好博客，虽然Hexo本身是全静态网页，页面加载速度相对于动态博客程序已经是非常可观，但NexT主题调用了不少js文件，如果再加上其他的图片、插件等等还是会一定程度上造成延迟。本着折腾不止和完美主义的精神，继续用CDN来加速Hexo的载入速度。">
+<meta name="description" content="辛辛苦苦搭建好博客，虽然Hexo本身是全静态网页，页面加载速度相对于动态博客程序已经是非常可观，但NexT主题调用了不少js文件，如果再加上其他的图片、插件等等还是会一定程度上造成延迟。本着折腾不止和完美主义的精神，用CDN来加速Hexo！">
 <meta name="keywords" content="CDN,Hexo">
 <meta property="og:type" content="article">
 <meta property="og:title" content="利用又拍云CDN加速Hexo博客">
 <meta property="og:url" content="http://47.96.27.26/2017/11/21/cdn.html">
 <meta property="og:site_name" content="Shup">
-<meta property="og:description" content="辛辛苦苦搭建好博客，虽然Hexo本身是全静态网页，页面加载速度相对于动态博客程序已经是非常可观，但NexT主题调用了不少js文件，如果再加上其他的图片、插件等等还是会一定程度上造成延迟。本着折腾不止和完美主义的精神，继续用CDN来加速Hexo的载入速度。">
+<meta property="og:description" content="辛辛苦苦搭建好博客，虽然Hexo本身是全静态网页，页面加载速度相对于动态博客程序已经是非常可观，但NexT主题调用了不少js文件，如果再加上其他的图片、插件等等还是会一定程度上造成延迟。本着折腾不止和完美主义的精神，用CDN来加速Hexo！">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://shupcd.test.upcdn.net/cdn/google-font-test.png">
 <meta property="og:image" content="http://shupcd.test.upcdn.net/cdn/comparison.png">
-<meta property="og:updated_time" content="2017-11-21T09:27:33.303Z">
+<meta property="og:updated_time" content="2017-11-21T09:43:17.751Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="利用又拍云CDN加速Hexo博客">
-<meta name="twitter:description" content="辛辛苦苦搭建好博客，虽然Hexo本身是全静态网页，页面加载速度相对于动态博客程序已经是非常可观，但NexT主题调用了不少js文件，如果再加上其他的图片、插件等等还是会一定程度上造成延迟。本着折腾不止和完美主义的精神，继续用CDN来加速Hexo的载入速度。">
+<meta name="twitter:description" content="辛辛苦苦搭建好博客，虽然Hexo本身是全静态网页，页面加载速度相对于动态博客程序已经是非常可观，但NexT主题调用了不少js文件，如果再加上其他的图片、插件等等还是会一定程度上造成延迟。本着折腾不止和完美主义的精神，用CDN来加速Hexo！">
 <meta name="twitter:image" content="http://shupcd.test.upcdn.net/cdn/google-font-test.png">
 
 
@@ -363,7 +363,7 @@
       
 
       
-        <p>辛辛苦苦搭建好博客，虽然Hexo本身是全静态网页，页面加载速度相对于动态博客程序已经是非常可观，但NexT主题调用了不少js文件，如果再加上其他的图片、插件等等还是会一定程度上造成延迟。本着折腾不止和完美主义的精神，继续用CDN来加速Hexo的载入速度。</p>
+        <p>辛辛苦苦搭建好博客，虽然Hexo本身是全静态网页，页面加载速度相对于动态博客程序已经是非常可观，但NexT主题调用了不少js文件，如果再加上其他的图片、插件等等还是会一定程度上造成延迟。本着折腾不止和完美主义的精神，用CDN来加速Hexo！</p>
 <a id="more"></a>
 <h1 id="CDN加速的原理"><a href="#CDN加速的原理" class="headerlink" title="CDN加速的原理"></a>CDN加速的原理</h1><p>这里简明扼要地解释一下CDN加速的原理：把你的上传到CDN加速网站(如<strong>又拍</strong>或者<strong>七牛</strong>)空间里的文件(或者网站)以镜像的形式存放到多台服务器，这些服务器分布在祖国甚至全世界各地，访问者就近读取较快的镜像，以实现快速加载的效果。举个栗子：你的文件(或网站)在上海，没有CDN，一个北京的访问者需要直接连接你在上海的服务器，有了CDN，这个北京的访问者只需要访问你的文件(网站)在北京的镜像即可。尤其是国内外的互访，CDN可使访问速度大大提升。</p>
 <h1 id="哪些因素会影响加载速度？"><a href="#哪些因素会影响加载速度？" class="headerlink" title="哪些因素会影响加载速度？"></a>哪些因素会影响加载速度？</h1><h2 id="js文件"><a href="#js文件" class="headerlink" title="js文件"></a>js文件</h2><p>js文件就是JavaScript脚本文件，用来实现各种动态酷炫的效果。一般是加载在html页面的<code>&lt;head&gt;</code>部分，所以页面加载首先要考虑这一块。Hexo的js文件大致包含以下3类：</p>
