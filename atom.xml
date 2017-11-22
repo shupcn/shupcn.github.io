@@ -50,9 +50,9 @@
     </summary>
     
     
-      <category term="CDN" scheme="http://47.96.27.26/tags/CDN/"/>
-    
       <category term="Hexo" scheme="http://47.96.27.26/tags/Hexo/"/>
+    
+      <category term="CDN" scheme="http://47.96.27.26/tags/CDN/"/>
     
   </entry>
   
@@ -71,24 +71,6 @@
     
     
       <category term="Hexo" scheme="http://47.96.27.26/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CentOS/Ubuntu一键安装IPSEC/IKEV2 科学上网[翻墙]服务器</title>
-    <link href="http://47.96.27.26/2017/11/15/fanqiang.html"/>
-    <id>http://47.96.27.26/2017/11/15/fanqiang.html</id>
-    <published>2017-11-15T11:20:05.000Z</published>
-    <updated>2017-11-21T04:05:25.232Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;买了香港或者国外的VPS不用来做科(V)学(P)上(N)网，简直太浪费了。这篇文章整理成了一份一键安装的脚本。适用于WindowsPhone,iOS,Android和PC设备。有需要的童鞋可以拿来食用~ ~ ~ ~ CentOS测试了下貌似没什么问题，Ubuntu的手里暂时没有空闲vps就没试了，其实也差不多的。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="VPN" scheme="http://47.96.27.26/tags/VPN/"/>
     
   </entry>
   
