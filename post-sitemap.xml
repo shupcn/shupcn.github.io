@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://47.96.27.26</loc>
+        <loc>https://shup.cn</loc>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
 
     <url>
-        <loc>http://47.96.27.26/2017/11/16/hexo.html</loc>
-        <lastmod>2017-11-24T09:45:24.934Z</lastmod>
+        <loc>https://shup.cn/2017/11/23/ss.html</loc>
+        <lastmod>2017-11-24T11:25:06.059Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>http://47.96.27.26/2017/11/21/valine.html</loc>
-        <lastmod>2017-11-24T09:36:25.702Z</lastmod>
+        <loc>https://shup.cn/2017/11/21/valine.html</loc>
+        <lastmod>2017-11-24T11:22:29.222Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>http://47.96.27.26/2017/11/21/cdn.html</loc>
-        <lastmod>2017-11-24T09:35:47.768Z</lastmod>
+        <loc>https://shup.cn/2017/11/21/cdn.html</loc>
+        <lastmod>2017-11-24T11:19:51.293Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>http://47.96.27.26/2017/11/23/ss.html</loc>
-        <lastmod>2017-11-24T09:35:00.118Z</lastmod>
+        <loc>https://shup.cn/2017/11/16/hexo.html</loc>
+        <lastmod>2017-11-24T11:17:10.250Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>http://47.96.27.26/2017/11/23/btoss.html</loc>
+        <loc>https://shup.cn/2017/11/23/btoss.html</loc>
         <lastmod>2017-11-23T12:08:25.592Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>

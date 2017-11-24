@@ -5,9 +5,9 @@
   <subtitle>Where dreams are born</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://47.96.27.26/"/>
+  <link href="https://shup.cn/"/>
   <updated>2017-11-23T12:08:25.592Z</updated>
-  <id>http://47.96.27.26/</id>
+  <id>https://shup.cn/</id>
   
   <author>
     <name>Shup</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>宝塔面板使用阿里云OSS备份数据</title>
-    <link href="http://47.96.27.26/2017/11/23/btoss.html"/>
-    <id>http://47.96.27.26/2017/11/23/btoss.html</id>
+    <link href="https://shup.cn/2017/11/23/btoss.html"/>
+    <id>https://shup.cn/2017/11/23/btoss.html</id>
     <published>2017-11-23T12:02:41.000Z</published>
     <updated>2017-11-23T12:08:25.592Z</updated>
     
@@ -30,20 +30,20 @@
     </summary>
     
     
-      <category term="OSS" scheme="http://47.96.27.26/tags/OSS/"/>
+      <category term="OSS" scheme="https://shup.cn/tags/OSS/"/>
     
-      <category term="备份" scheme="http://47.96.27.26/tags/%E5%A4%87%E4%BB%BD/"/>
+      <category term="备份" scheme="https://shup.cn/tags/%E5%A4%87%E4%BB%BD/"/>
     
-      <category term="宝塔" scheme="http://47.96.27.26/tags/%E5%AE%9D%E5%A1%94/"/>
+      <category term="宝塔" scheme="https://shup.cn/tags/%E5%AE%9D%E5%A1%94/"/>
     
   </entry>
   
   <entry>
     <title>使用免费的Google Cloud部署SS来科学上网</title>
-    <link href="http://47.96.27.26/2017/11/23/ss.html"/>
-    <id>http://47.96.27.26/2017/11/23/ss.html</id>
+    <link href="https://shup.cn/2017/11/23/ss.html"/>
+    <id>https://shup.cn/2017/11/23/ss.html</id>
     <published>2017-11-23T05:56:07.000Z</published>
-    <updated>2017-11-24T09:35:00.118Z</updated>
+    <updated>2017-11-24T11:25:06.059Z</updated>
     
     <summary type="html">
     
@@ -52,18 +52,18 @@
     </summary>
     
     
-      <category term="SS" scheme="http://47.96.27.26/tags/SS/"/>
+      <category term="SS" scheme="https://shup.cn/tags/SS/"/>
     
-      <category term="科学上网" scheme="http://47.96.27.26/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+      <category term="科学上网" scheme="https://shup.cn/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
     
   </entry>
   
   <entry>
     <title>使用Valine插件为Hexo博客添加评论功能</title>
-    <link href="http://47.96.27.26/2017/11/21/valine.html"/>
-    <id>http://47.96.27.26/2017/11/21/valine.html</id>
+    <link href="https://shup.cn/2017/11/21/valine.html"/>
+    <id>https://shup.cn/2017/11/21/valine.html</id>
     <published>2017-11-21T07:52:03.000Z</published>
-    <updated>2017-11-24T09:36:25.702Z</updated>
+    <updated>2017-11-24T11:22:29.222Z</updated>
     
     <summary type="html">
     
@@ -72,18 +72,18 @@
     </summary>
     
     
-      <category term="Hexo" scheme="http://47.96.27.26/tags/Hexo/"/>
+      <category term="Hexo" scheme="https://shup.cn/tags/Hexo/"/>
     
-      <category term="Valine" scheme="http://47.96.27.26/tags/Valine/"/>
+      <category term="Valine" scheme="https://shup.cn/tags/Valine/"/>
     
   </entry>
   
   <entry>
     <title>利用又拍云CDN加速Hexo博客</title>
-    <link href="http://47.96.27.26/2017/11/21/cdn.html"/>
-    <id>http://47.96.27.26/2017/11/21/cdn.html</id>
+    <link href="https://shup.cn/2017/11/21/cdn.html"/>
+    <id>https://shup.cn/2017/11/21/cdn.html</id>
     <published>2017-11-21T04:54:13.000Z</published>
-    <updated>2017-11-24T09:35:47.768Z</updated>
+    <updated>2017-11-24T11:19:51.293Z</updated>
     
     <summary type="html">
     
@@ -92,18 +92,18 @@
     </summary>
     
     
-      <category term="CDN" scheme="http://47.96.27.26/tags/CDN/"/>
+      <category term="CDN" scheme="https://shup.cn/tags/CDN/"/>
     
-      <category term="Hexo" scheme="http://47.96.27.26/tags/Hexo/"/>
+      <category term="Hexo" scheme="https://shup.cn/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>在阿里云VPS上部署Hexo</title>
-    <link href="http://47.96.27.26/2017/11/16/hexo.html"/>
-    <id>http://47.96.27.26/2017/11/16/hexo.html</id>
+    <link href="https://shup.cn/2017/11/16/hexo.html"/>
+    <id>https://shup.cn/2017/11/16/hexo.html</id>
     <published>2017-11-16T09:36:51.000Z</published>
-    <updated>2017-11-24T09:45:24.934Z</updated>
+    <updated>2017-11-24T11:17:10.250Z</updated>
     
     <summary type="html">
     
@@ -112,7 +112,7 @@
     </summary>
     
     
-      <category term="Hexo" scheme="http://47.96.27.26/tags/Hexo/"/>
+      <category term="Hexo" scheme="https://shup.cn/tags/Hexo/"/>
     
   </entry>
   

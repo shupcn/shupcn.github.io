@@ -89,21 +89,21 @@
 <meta name="keywords" content="Hexo">
 <meta property="og:type" content="article">
 <meta property="og:title" content="在阿里云VPS上部署Hexo">
-<meta property="og:url" content="http://47.96.27.26/2017/11/16/hexo.html">
+<meta property="og:url" content="https://shup.cn/2017/11/16/hexo.html">
 <meta property="og:site_name" content="Shup">
 <meta property="og:description" content="自双11购入了阿里云的VPS后，一直想着捯饬些什么，首当其冲的就是搭一个博客站点。之前使用过WordPress、Joomla、Drupal、国人的Typecho、Emlog、Zblog等。前几个国外的博客虽然功能、插件、模版丰富，但感觉略显臃肿，过多冗余之处，不适合做个人站点使用，尤其不适合笔者的1G1M的小水管主机。而国人的Typecho、Emlog感觉不错，安装使用简单、占用内存少、界面清新，">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://cdn.shup.cn/hexo/git.jpg">
-<meta property="og:image" content="http://cdn.shup.cn/hexo/hello.png">
-<meta property="og:image" content="http://cdn.shup.cn/hexo/ssh1.png">
-<meta property="og:image" content="http://cdn.shup.cn/hexo/ssh-run.png">
-<meta property="og:image" content="http://cdn.shup.cn/hexo/pwd.png">
-<meta property="og:image" content="http://cdn.shup.cn/hexo/nginx.png">
-<meta property="og:updated_time" content="2017-11-24T09:45:24.934Z">
+<meta property="og:image" content="https://cdn.shup.cn/hexo/git.jpg">
+<meta property="og:image" content="https://cdn.shup.cn/hexo/hello.png">
+<meta property="og:image" content="https://cdn.shup.cn/hexo/ssh1.png">
+<meta property="og:image" content="https://cdn.shup.cn/hexo/ssh-run.png">
+<meta property="og:image" content="https://cdn.shup.cn/hexo/pwd.png">
+<meta property="og:image" content="https://cdn.shup.cn/hexo/nginx.png">
+<meta property="og:updated_time" content="2017-11-24T11:17:10.250Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="在阿里云VPS上部署Hexo">
 <meta name="twitter:description" content="自双11购入了阿里云的VPS后，一直想着捯饬些什么，首当其冲的就是搭一个博客站点。之前使用过WordPress、Joomla、Drupal、国人的Typecho、Emlog、Zblog等。前几个国外的博客虽然功能、插件、模版丰富，但感觉略显臃肿，过多冗余之处，不适合做个人站点使用，尤其不适合笔者的1G1M的小水管主机。而国人的Typecho、Emlog感觉不错，安装使用简单、占用内存少、界面清新，">
-<meta name="twitter:image" content="http://cdn.shup.cn/hexo/git.jpg">
+<meta name="twitter:image" content="https://cdn.shup.cn/hexo/git.jpg">
 
 
 
@@ -133,7 +133,7 @@
 
 
 
-  <link rel="canonical" href="http://47.96.27.26/2017/11/16/hexo.html"/>
+  <link rel="canonical" href="https://shup.cn/2017/11/16/hexo.html"/>
 
 
 
@@ -167,7 +167,7 @@
     
       <div class="site-meta-headline">
         <a href="/" rel="start">
-          <img class="custom-logo-image" src="http://cdn.shup.cn/logo.png"
+          <img class="custom-logo-image" src="https://cdn.shup.cn/logo.png"
                alt="Shup"/>
         </a>
       </div>
@@ -290,12 +290,12 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://47.96.27.26/2017/11/16/hexo.html">
+    <link itemprop="mainEntityOfPage" href="https://shup.cn/2017/11/16/hexo.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Shup">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="http://cdn.shup.cn/shup.png">
+      <meta itemprop="image" content="https://cdn.shup.cn/shup.png">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -407,7 +407,7 @@
 <h2 id="SSH工具"><a href="#SSH工具" class="headerlink" title="SSH工具"></a>SSH工具</h2><p>SSH工具是我们用来以命令行的方式远程操作服务器端。Putty小巧、免费，Xshell功能更强大，但是收费。笔者使用的是Putty，点此下载<a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html" target="_blank" rel="external">(最新版)</a>，注意本地操作系统，自行下载相应版本安装。如何使用SSH工具连接VPS，请看阿里云的<a href="https://help.aliyun.com/document_detail/59083.html#windows" target="_blank" rel="external">官方教程</a>。</p>
 <h1 id="本地端配置"><a href="#本地端配置" class="headerlink" title="本地端配置"></a>本地端配置</h1><p>本地配置很简单，依次安装好Node.js和Git,再安装Hexo即可，Hexo需要前两者的支持。本人是用的win10系统，本地端不需要什么配置，只要安装相应版本即可，Mac或Linux系统应该更容易。</p>
 <h2 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h2><p>这里给出Node.js官方下载链接：<a href="https://nodejs.org/zh-cn/download/" target="_blank" rel="external">https://nodejs.org/zh-cn/download/</a><br>安装没什么好说的，一路默认下一步即可。</p>
-<h2 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h2><p>同样给出Git官方下载链接：<a href="https://git-scm.com/downloads" target="_blank" rel="external">https://git-scm.com/downloads</a><br>对应自己的本地系统下载即可，这个套件不仅仅在windows上安装了Git版本控制系统，最重要的是这个套件提供了Git Bash，一个可以在windows上运行的Linux风格shell，除非你够硬核，能忍受win的cmd，否则通过Git Bash使用hexo无疑是最佳选择。下图的选项建议勾选，视觉效果有明显提升。其余选项保持默认即可。<br><img src="http://cdn.shup.cn/hexo/git.jpg" width="400" height="300"></p>
+<h2 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h2><p>同样给出Git官方下载链接：<a href="https://git-scm.com/downloads" target="_blank" rel="external">https://git-scm.com/downloads</a><br>对应自己的本地系统下载即可，这个套件不仅仅在windows上安装了Git版本控制系统，最重要的是这个套件提供了Git Bash，一个可以在windows上运行的Linux风格shell，除非你够硬核，能忍受win的cmd，否则通过Git Bash使用hexo无疑是最佳选择。下图的选项建议勾选，视觉效果有明显提升。其余选项保持默认即可。<br><img src="https://cdn.shup.cn/hexo/git.jpg" width="400" height="300"></p>
 <h2 id="安装并熟悉Hexo"><a href="#安装并熟悉Hexo" class="headerlink" title="安装并熟悉Hexo"></a>安装并熟悉Hexo</h2><p>Hexo最好的教程当然是<a href="https://hexo.io/zh-cn/docs/index.html" target="_blank" rel="external">官方文档</a>！先不用花时间全看完官方文档，这里稍微说下要点，部署好之后可以仔细研究官方文档。</p>
 <p>首先是安装，在Git Bash下输入这条命令就安装Hexo了，简单吧。不过这仅仅是把Hexo的程序写进了系统，网站还没有部署好。</p>
 <figure class="highlight avrasm"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-<span class="keyword">cli</span></span><br></pre></td></tr></table></figure>
@@ -431,7 +431,7 @@
 <li><p>启动本地服务器</p>
 <figure class="highlight ebnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">hexo s</span></span><br></pre></td></tr></table></figure>
 <p>这条命令会在本地启动服务器，访问地址为<code>localhost:4000</code>，主要是我们正式发布前预览测试用的，启动后你编辑文章和主题等都可以直接更新到该网址，非常方便！但是注意，编辑站点配置文件<code>_config.yml</code>是需要重启该服务器才生效的。现在我们就看下自带<code>hello-world.md</code>的预览效果吧。还是蛮酷炫的吧！</p>
-<img src="http://cdn.shup.cn/hexo/hello.png" width="400" height="300"> 
+<img src="https://cdn.shup.cn/hexo/hello.png" width="400" height="300"> 
 <p>这里有个坑吐槽一下，若Win安装了福某PDF阅读器会占用4000端口，需要用<code>hexo s -p 5000</code>命令把端口换成5000来执行启动。</p>
 </li>
 <li><p>生成静态文件</p>
@@ -465,14 +465,14 @@
 <p>确保用户<code>hexo</code>及<code>.ssh</code>文件夹及相关密钥文件权限正确</p>
 <figure class="highlight groovy"><table><tr><td class="code"><pre><span class="line">chown -R <span class="string">hexo:</span>hexo <span class="regexp">/home/</span>hexo</span><br><span class="line">chmod <span class="number">700</span> <span class="regexp">/home/</span>hexo</span><br><span class="line">chmod <span class="number">700</span> <span class="regexp">/home/</span>hexo/.ssh</span><br><span class="line">chmod <span class="number">644</span> <span class="regexp">/home/</span>hexo<span class="regexp">/.ssh/</span>authorized_keys  <span class="comment">//公钥文件的所有权限</span></span><br><span class="line">chmod <span class="number">600</span> <span class="regexp">/home/</span>hexo<span class="regexp">/.ssh/</span>id_rsa        <span class="comment">//私钥文件的所有权限</span></span><br></pre></td></tr></table></figure>
 <p>查看是否有安装ssh并安装，没有的话使用yum安装</p>
- <img src="http://cdn.shup.cn/hexo/ssh1.png" width="400" height="300">
+ <img src="https://cdn.shup.cn/hexo/ssh1.png" width="400" height="300">
 <figure class="highlight gradle"><table><tr><td class="code"><pre><span class="line">rpm -qa |<span class="keyword">grep</span> ssh <span class="comment">//检查是否有ssh</span></span><br><span class="line">yum install ssh <span class="comment">//如果没有ssh运行，则执行此命令安装ssh</span></span><br></pre></td></tr></table></figure>
 <p>安装完后启动服务</p>
 <figure class="highlight livecodeserver"><table><tr><td class="code"><pre><span class="line">service sshd <span class="built_in">start</span></span><br><span class="line">service sshd status<span class="comment"> //检查是否已启动，看到running即可</span></span><br></pre></td></tr></table></figure>
-<img src="http://cdn.shup.cn/hexo/ssh-run.png" width="400" height="300"></li>
+<img src="https://cdn.shup.cn/hexo/ssh-run.png" width="400" height="300"></li>
 <li><p><strong>本地端</strong>ssh配置 </p>
 <p>打开Git Bash，输入<code>pwd</code>查看本地用户的文件夹地址，如下图，一般默认在<code>C:\User\你的账户名</code>。然后打开用户文件夹里的<code>.ssh</code>文件夹，把刚刚从服务器上下载到本地的两个密钥文件拷贝进去。</p>
-<img src="http://cdn.shup.cn/hexo/pwd.png" width="400" height="300">
+<img src="https://cdn.shup.cn/hexo/pwd.png" width="400" height="300">
 </li>
 <li><p><strong>本地端</strong>ssh验证</p>
 <figure class="highlight gherkin"><table><tr><td class="code"><pre><span class="line">ssh hexo<span class="meta">@你的域名或者IP</span> //<span class="meta">@前是你创建的站点管理用户</span></span><br></pre></td></tr></table></figure>
@@ -498,7 +498,7 @@
 <figure class="highlight stata"><table><tr><td class="code"><pre><span class="line"><span class="keyword">su</span> hexo</span><br><span class="line"><span class="keyword">cd</span> ~</span><br><span class="line"><span class="keyword">mkdir</span> www</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>验证配置是否正确，如下图。</p>
-<img src="http://cdn.shup.cn/hexo/nginx.png" width="400" height="300">
+<img src="https://cdn.shup.cn/hexo/nginx.png" width="400" height="300">
 </li>
 <li><p>启动nginx服务并测试</p>
 <figure class="highlight awk"><table><tr><td class="code"><pre><span class="line">sudo service nginx start</span><br><span class="line">echo <span class="string">"hello nginx"</span> &gt; <span class="regexp">/home/</span>hexo<span class="regexp">/www/i</span>ndex.html	<span class="regexp">//</span>站点根目录下新建index.html</span><br></pre></td></tr></table></figure>
@@ -580,7 +580,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="http://47.96.27.26/2017/11/16/hexo.html" title="在阿里云VPS上部署Hexo">http://47.96.27.26/2017/11/16/hexo.html</a>
+    <a href="https://shup.cn/2017/11/16/hexo.html" title="在阿里云VPS上部署Hexo">https://shup.cn/2017/11/16/hexo.html</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>
@@ -688,7 +688,7 @@
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
               <img class="site-author-image" itemprop="image"
-                src="http://cdn.shup.cn/shup.png"
+                src="https://cdn.shup.cn/shup.png"
                 alt="Shup" />
             
               <p class="site-description motion-element" itemprop="description"></p>
