@@ -72,7 +72,7 @@
 
 
 
-  <meta name="keywords" content="Shup" />
+  <meta name="keywords" content="SS,科学上网," />
 
 
 
@@ -85,13 +85,26 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="Shup">
-<meta property="og:url" content="http://47.96.27.26/archives/2017/11/index.html">
+<meta name="description" content="之前一直想搞个搬瓦工或者vultr的VPS来部署SS，来实现科(V)学(P)上(N)网，但始终抢不到优惠的实例。偶然间发现Google Cloud在免费，而且貌似免费期从之前的2个月提高到1年，这样看来不用花一分钱，即可实现爱(翻)国(墙)上网，还可以在享受配置、性能更高、更稳定Google服务器，岂不美哉！">
+<meta name="keywords" content="SS,科学上网">
+<meta property="og:type" content="article">
+<meta property="og:title" content="使用免费的Google Cloud部署SS来科学上网">
+<meta property="og:url" content="http://47.96.27.26/2017/11/23/ss.html">
 <meta property="og:site_name" content="Shup">
+<meta property="og:description" content="之前一直想搞个搬瓦工或者vultr的VPS来部署SS，来实现科(V)学(P)上(N)网，但始终抢不到优惠的实例。偶然间发现Google Cloud在免费，而且貌似免费期从之前的2个月提高到1年，这样看来不用花一分钱，即可实现爱(翻)国(墙)上网，还可以在享受配置、性能更高、更稳定Google服务器，岂不美哉！">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://shupcd.test.upcdn.net/ss/free.png">
+<meta property="og:image" content="http://shupcd.test.upcdn.net/ss/first.png">
+<meta property="og:image" content="http://shupcd.test.upcdn.net/ss/kaitong1.png">
+<meta property="og:image" content="http://shupcd.test.upcdn.net/ss/kaitong2.png">
+<meta property="og:image" content="http://shupcd.test.upcdn.net/ss/firewall.png">
+<meta property="og:image" content="http://shupcd.test.upcdn.net/ss/putty.png">
+<meta property="og:image" content="http://shupcd.test.upcdn.net/ss/ssh.png">
+<meta property="og:updated_time" content="2017-11-24T05:18:09.225Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Shup">
+<meta name="twitter:title" content="使用免费的Google Cloud部署SS来科学上网">
+<meta name="twitter:description" content="之前一直想搞个搬瓦工或者vultr的VPS来部署SS，来实现科(V)学(P)上(N)网，但始终抢不到优惠的实例。偶然间发现Google Cloud在免费，而且貌似免费期从之前的2个月提高到1年，这样看来不用花一分钱，即可实现爱(翻)国(墙)上网，还可以在享受配置、性能更高、更稳定Google服务器，岂不美哉！">
+<meta name="twitter:image" content="http://shupcd.test.upcdn.net/ss/free.png">
 
 
 
@@ -121,13 +134,13 @@
 
 
 
-  <link rel="canonical" href="http://47.96.27.26/archives/2017/11/"/>
+  <link rel="canonical" href="http://47.96.27.26/2017/11/23/ss.html"/>
 
 
 
 
 
-  <title>归档 | Shup</title>
+  <title>使用免费的Google Cloud部署SS来科学上网 | Shup</title>
   
 
 
@@ -146,7 +159,7 @@
     
   
 
-  <div class="container sidebar-position-left page-archive">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -264,222 +277,361 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block archive">
-    <div id="posts" class="posts-collapse">
-      <span class="archive-move-on"></span>
+  <div id="posts" class="posts-expand">
+    
 
-      <span class="archive-page-counter">
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://47.96.27.26/2017/11/23/ss.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Shup">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://shupcd.test.upcdn.net/shup.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Shup">
+    </span>
+
+    
+      <header class="post-header">
+
         
         
+          <h1 class="post-title" itemprop="name headline">使用免费的Google Cloud部署SS来科学上网</h1>
         
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-23T13:56:07+08:00">
+                2017-11-23
+              </time>
+            
+
+            
+
+            
+          </span>
+
           
-        
-        嗯..! 目前共计 5 篇日志。 继续努力。
-      </span>
 
-      
-
-        
-        
-        
-
-        
           
-          <div class="collection-title">
-            <h1 class="archive-year" id="archive-year-2017">2017</h1>
-          </div>
-        
-        
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017/11/23/ss.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2017/11/23/ss.html" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
 
-        
+          
+          
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+          
 
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2017/11/23/btoss.html" itemprop="url">
+          
+            <div class="post-wordcount">
               
-                <span itemprop="name">宝塔面板使用阿里云OSS备份数据</span>
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  1,715 字
+                </span>
               
-            </a>
-        
-      </h2>
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-11-23T20:02:41+08:00"
-              content="2017-11-23" >
-          11-23
-        </time>
-      </div>
+              
+                <span class="post-meta-divider">|</span>
+              
 
-    </header>
-  </article>
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  6 分钟
+                </span>
+              
+            </div>
+          
 
+          
 
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2017/11/23/ss.html" itemprop="url">
-              
-                <span itemprop="name">使用免费的Google Cloud部署SS来科学上网</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-11-23T13:56:07+08:00"
-              content="2017-11-23" >
-          11-23
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
       
 
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2017/11/21/valine.html" itemprop="url">
-              
-                <span itemprop="name">使用Valine插件为Hexo博客添加评论功能</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-11-21T15:52:03+08:00"
-              content="2017-11-21" >
-          11-21
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
+      
+        <p>之前一直想搞个搬瓦工或者vultr的VPS来部署SS，来实现科(V)学(P)上(N)网，但始终抢不到优惠的实例。偶然间发现Google Cloud在免费，而且貌似免费期从之前的2个月提高到1年，这样看来不用花一分钱，即可实现爱(翻)国(墙)上网，还可以在享受配置、性能更高、更稳定Google服务器，岂不美哉！</p>
+<a id="more"></a>
+<h1 id="Google-Cloud免费简介"><a href="#Google-Cloud免费简介" class="headerlink" title="Google Cloud免费简介"></a>Google Cloud免费简介</h1><p>Google Cloud顾名思义即Google提供的云计算服务，和国内的阿里云、腾讯云、百度云类似。提供的服务无非也就那几大类：基础云计算服务、大数据类、物联网、CDN等等。免费以300刀赠金形式，可以体验所有产品当然也包括Compute Engine(即VPS)，需要注意Google的云主机计费方式与国内不同之处在于：国内一般是全包，而Google是云主机、公网IP和流量分开计费，需确保你在一年内的消费不超过300刀，后面会详细讲。<br><img src="http://shupcd.test.upcdn.net/ss/free.png" alt="free"></p>
+<h1 id="申请与开通VPS主机"><a href="#申请与开通VPS主机" class="headerlink" title="申请与开通VPS主机"></a>申请与开通VPS主机</h1><p>在一切操作前，你需要先有一个临时的科(V)学(P)上(N)网环境，因为注册和配置Google云服务的工作需要在Google网站上完成。可以在手机里操作，目前有很多相关APP有免费使用时长，半个小时足以。</p>
+<p>另外，你需要准备好：</p>
+<ol>
+<li>一张Visa或者万事达的信用卡(会扣1美元验证卡真实性，几分钟后就会退还。)</li>
+<li>一个美国电话号码(可以用<strong>iPlum</strong>。非必须，仅仅为提高通过率，目前号码不需要验证，所以非真实号码应该可以。)</li>
+<li>一个美国地址(自己去搜索，地址需要真实)</li>
+</ol>
+<p>准备就绪：</p>
+<ol>
+<li>登陆Google Cloud主页：<code>cloud.google.com</code>，点击<strong>TRY IT FREE</strong>，登陆你的Google账号。</li>
+<li>地区选择美国，然后同意服务条款后，账户类型选择<strong>个人</strong>，填上地址、信用卡信息，即可开通账户。<br><img src="http://shupcd.test.upcdn.net/ss/first.png" alt="first"></li>
+<li>开通后创建VM实例，按照下面2张图配置即可，笔者选的是1核1G内存10G硬盘CENTOS6系统，asia-east1-c节点(台湾)。也可根据自己需求选择配置。另外在网络那里选择添加外部静态IP(即公网IP地址)。最后点创建即可开通云主机。</li>
+</ol>
+<p><strong>配置云主机</strong><br><img src="http://shupcd.test.upcdn.net/ss/kaitong1.png" alt="conf"></p>
+<p><strong>配置公网IP</strong><br><img src="http://shupcd.test.upcdn.net/ss/kaitong2.png" alt="ip"></p>
+<p>这里说一下配置的选择及价格：主机的价格表不在此列举，自己选择适合的。公网IP基本上是免费，那就来梳理一下流量的计费方式：</p>
+<table>
+<thead>
+<tr>
+<th>流量类型</th>
+<th>价格</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>入口</td>
+<td>免费</td>
+</tr>
+<tr>
+<td>出口*到同一区域</td>
+<td>免费</td>
+</tr>
+<tr>
+<td>出口在同一区域内不同的谷歌云平台服务</td>
+<td>免费</td>
+</tr>
+<tr>
+<td>出口到谷歌产品（如YouTube，Google地图，驱动器）</td>
+<td>不收费**</td>
+</tr>
+<tr>
+<td>在同一地区区域之间的出口（每GB）</td>
+<td>$ 0.01</td>
+</tr>
+<tr>
+<td>在美国国内地区之间的出口（每GB）</td>
+<td>$ 0.01</td>
+</tr>
+<tr>
+<td>洲际出口</td>
+<td>参考下面表格</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>每月使用</th>
+<th>网络(出)全球(不包括中国和澳大利亚，但包括香港)(每GB)</th>
+<th>网络(出)中国(不包括香港)(每GB)</th>
+<th>网络(出)澳大利亚(每GB)</th>
+<th>网络(入)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0-1 TB</td>
+<td>$ 0.12</td>
+<td>$ 0.23</td>
+<td>$ 0.19</td>
+<td>免费</td>
+</tr>
+<tr>
+<td>1-10 TB</td>
+<td>$ 0.11</td>
+<td>$ 0.22</td>
+<td>$ 0.18</td>
+<td>免费</td>
+</tr>
+<tr>
+<td>10+ TB</td>
+<td>$为0.08</td>
+<td>$ 0.20</td>
+<td>$ 0.15</td>
+<td>免费</td>
+</tr>
+</tbody>
+</table>
+<p>可以看出如果每月流量不超过<strong>1TB</strong>，就是$0.23月/GB。以最低配主机(如果仅仅用于科学上网，最低配没问题)为例，$5/月，一年是$60，还剩下$240用于流量的开销，240 / 0.23 = 1043GB， 1043 / 12个月 = 86GB 也就是每个月用 86GB流量，足够了。当然也可以选择更高配置的主机，这样流量少一点，自己权衡。</p>
+<h1 id="配置防火墙"><a href="#配置防火墙" class="headerlink" title="配置防火墙"></a>配置防火墙</h1><p>开通主机后，因为后面要配置SS，默认的防火墙限制太多，需要修改防火墙规则。<br>在<code>控制台/VPC网络/防火墙规则</code>里，名称随便写，其他按下图配置即可。IP地址范围： <code>0.0.0.0/0</code><br><img src="http://shupcd.test.upcdn.net/ss/firewall.png" alt="firewall"></p>
+<h1 id="配置SSH"><a href="#配置SSH" class="headerlink" title="配置SSH"></a>配置SSH</h1><ol>
+<li><p>用  PuTTYgen生成密钥<br>使用SSH工具<code>Xshell</code>或者<code>Putty</code>，这里以Putty为例，使用方法参考<a href="http://47.96.27.26/2017/11/16/hexo.html#SSH%E5%B7%A5%E5%85%B7">之前文章</a>，Putty安装好后程序包里有一个PuttyGen工具，打开后，直接点击<code>Generate</code>来生成一对密钥用于登陆SSH。<br><strong>注意</strong>： 生成好后在<code>key comment</code>处，原本生成的应该是rsa-key-20171123，需要修改成rsa-key-20170905<code>XXXX</code>，<code>XXXX</code>是你申请Google Cloud 时，“XXXX@gmail.com” 前的字符，说白了就是你邮箱的用户名。<br><strong>完成后将 public key 保存，保存为<code>.pub</code>格式文件，然后保存 private key，保存为<code>.ppk</code>文件格式！</strong></p>
+</li>
+<li><p>Google Cloud控制台 导入公钥<br>在<code>控制台/compute engine/元数据</code>中，右边点击<code>SSH密钥</code>，点击修改，添加刚刚保存的公钥<code>.pub</code>文件里的内容进去保存即可。</p>
+</li>
+<li><p>Putty里导入私钥 连接实例<br>打开Putty ，在<code>Connection/SSH/Auth</code>, 导入刚刚保存的私钥<code>.ppk</code>文件。如下图。接下来回到<code>session</code>，在Host Name (or IP address)中填入步骤1修改过的 <code>Key comment ＋@实例 ip</code>(比如rsa-key-20170905name@8.8.8.8)，即可登录SSH。连接成功后，输入<code>sudo -i</code>即可获得root权限。<br><img src="http://shupcd.test.upcdn.net/ss/putty.png" alt="putty"></p>
+</li>
+</ol>
+<p><img src="http://shupcd.test.upcdn.net/ss/ssh.png" alt="ssh"></p>
+<h1 id="SS的安装与配置"><a href="#SS的安装与配置" class="headerlink" title="SS的安装与配置"></a>SS的安装与配置</h1><p>先来说说SS特点 ：</p>
+<ul>
+<li>省电（在电量查看里几乎看不到它的身影）</li>
+<li>支持开机自启动，且断网无影响，无需手动重连</li>
+<li>可使用自己的服务器（安全和速度的保证）</li>
+<li>支持区分国内外流量（PAC模式）</li>
+<li>可对应用设置单独代理</li>
+</ul>
+<p>安装和配置主要是参考秋水逸冰文章：</p>
+<ol>
+<li><p>在VPS上安装SS前，需要先安装最新内核并开启 BBR，可以使用秋水逸冰的一键安装脚本，具体<a href="https://teddysun.com/489.html" target="_blank" rel="external">看这里</a>。<br>BBR 即拥塞控制算法，目的是要尽量跑满带宽, 并且尽量不要有排队的情况, 效果并不比速锐差。据很多人反馈，速度比锐速还厉害！！</p>
+</li>
+<li><p>SS的安装和配置具体也可见秋水逸冰<a href="https://teddysun.com/486.html/comment-page-6" target="_blank" rel="external">一键安装脚本</a>。一般选择Python版。安装完成后，脚本提示如下：</p>
+</li>
+</ol>
+<figure class="highlight oxygene"><table><tr><td class="code"><pre><span class="line">Congratulations, your_shadowsocks_version install completed!</span><br><span class="line">Your Server IP        :your_server_ip           #SS服务器的IP</span><br><span class="line">Your Server Port      :your_server_port         #SS服务器的端口</span><br><span class="line">Your Password         :your_password            #SS服务器登陆密码</span><br><span class="line">Your Encryption <span class="function"><span class="keyword">Method</span>:</span>your_encryption_method   #SS服务器加密方式</span><br><span class="line"></span><br><span class="line">Your QR Code: (<span class="keyword">For</span> Shadowsocks Windows, OSX, Android <span class="keyword">and</span> iOS clients)</span><br><span class="line"> ss:<span class="comment">//your_encryption_method:your_password@your_server_ip:your_server_port</span></span><br><span class="line">Your QR Code <span class="keyword">has</span> been saved <span class="keyword">as</span> a PNG file path:</span><br><span class="line"> your_path.png</span><br><span class="line"></span><br><span class="line">Welcome <span class="keyword">to</span> visit:https:<span class="comment">//teddysun.com/486.html</span></span><br><span class="line">Enjoy it!</span><br></pre></td></tr></table></figure>
+<ol>
+<li>最后在Win、Mac、IOS、android中下载对应的SS客户端，填入以上配置好的IP、端口、密码，选择相应的加密方式(Win下，右键任务栏纸飞机小图标，启用系统代理)，即可去探索外面的世界了。</li>
+</ol>
 
       
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2017/11/21/cdn.html" itemprop="url">
-              
-                <span itemprop="name">利用又拍云CDN加速Hexo博客</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-11-21T12:54:13+08:00"
-              content="2017-11-21" >
-          11-21
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-      
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2017/11/16/hexo.html" itemprop="url">
-              
-                <span itemprop="name">在阿里云VPS上部署Hexo</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-11-16T17:36:51+08:00"
-              content="2017-11-16" >
-          11-16
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-      
-
     </div>
+    
+    
+    
+
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div></div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechatpay.jpg" alt="Shup 微信支付"/>
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/alipay.jpg" alt="Shup 支付宝"/>
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者：</strong>
+    Shup
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="http://47.96.27.26/2017/11/23/ss.html" title="使用免费的Google Cloud部署SS来科学上网">http://47.96.27.26/2017/11/23/ss.html</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>
+    本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+
+      </div>
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/SS/" rel="tag"># SS</a>
+          
+            <a href="/tags/科学上网/" rel="tag"># 科学上网</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/11/21/valine.html" rel="next" title="使用Valine插件为Hexo博客添加评论功能">
+                <i class="fa fa-chevron-left"></i> 使用Valine插件为Hexo博客添加评论功能
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/11/23/btoss.html" rel="prev" title="宝塔面板使用阿里云OSS备份数据">
+                宝塔面板使用阿里云OSS备份数据 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -487,6 +639,13 @@
 
 
           
+
+  
+    <div class="comments" id="comments">
+    </div>
+  
+
+
 
         </div>
         
@@ -509,8 +668,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -599,6 +767,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Google-Cloud免费简介"><span class="nav-number">1.</span> <span class="nav-text">Google Cloud免费简介</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#申请与开通VPS主机"><span class="nav-number">2.</span> <span class="nav-text">申请与开通VPS主机</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#配置防火墙"><span class="nav-number">3.</span> <span class="nav-text">配置防火墙</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#配置SSH"><span class="nav-number">4.</span> <span class="nav-text">配置SSH</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#SS的安装与配置"><span class="nav-number">5.</span> <span class="nav-text">SS的安装与配置</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -727,6 +911,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.3"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.3"></script>
+
+
 
   
 
