@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://shup.cn/"/>
-  <updated>2017-11-23T12:08:25.592Z</updated>
+  <updated>2017-11-24T14:12:45.892Z</updated>
   <id>https://shup.cn/</id>
   
   <author>
@@ -17,37 +17,15 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>宝塔面板使用阿里云OSS备份数据</title>
-    <link href="https://shup.cn/2017/11/23/btoss.html"/>
-    <id>https://shup.cn/2017/11/23/btoss.html</id>
-    <published>2017-11-23T12:02:41.000Z</published>
-    <updated>2017-11-23T12:08:25.592Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;宝塔Linux面板对阿里云OSS提供支持，可以将网站、数据库打包备份到阿里云OSS。阿里云OSS提供5GB免费存储空间。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="OSS" scheme="https://shup.cn/tags/OSS/"/>
-    
-      <category term="备份" scheme="https://shup.cn/tags/%E5%A4%87%E4%BB%BD/"/>
-    
-      <category term="宝塔" scheme="https://shup.cn/tags/%E5%AE%9D%E5%A1%94/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>使用免费的Google Cloud部署SS来科学上网</title>
+    <title>利用免费的Google Cloud来部署科学上网神器SS</title>
     <link href="https://shup.cn/2017/11/23/ss.html"/>
     <id>https://shup.cn/2017/11/23/ss.html</id>
     <published>2017-11-23T05:56:07.000Z</published>
-    <updated>2017-11-24T11:25:06.059Z</updated>
+    <updated>2017-11-24T14:12:45.892Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;之前一直想搞个搬瓦工或者vultr的VPS来部署SS，来实现科(V)学(P)上(N)网，但始终抢不到优惠的实例。偶然间发现Google Cloud在免费，而且貌似免费期从之前的2个月提高到1年，这样看来不用花一分钱，即可实现爱(翻)国(墙)上网，还可以在享受配置、性能更高、更稳定Google服务器，岂不美哉！&lt;/p&gt;
+      &lt;p&gt;之前一直想搞个搬瓦工或者vultr的VPS来部署SS，来实现科(V)学(P)上(N)网，但始终抢不到优惠的实例。偶然间发现Google Cloud在免费，而且貌似免费期从之前的2个月提高到1年，这样看来不用花一分钱，即可实现爱(翻)国(墙)上网，还可以再享受配置、性能更高、更稳定Google服务器，岂不美哉！&lt;/p&gt;
     
     </summary>
     
@@ -79,11 +57,11 @@
   </entry>
   
   <entry>
-    <title>利用又拍云CDN加速Hexo博客</title>
+    <title>用又拍云CDN加速Hexo博客</title>
     <link href="https://shup.cn/2017/11/21/cdn.html"/>
     <id>https://shup.cn/2017/11/21/cdn.html</id>
     <published>2017-11-21T04:54:13.000Z</published>
-    <updated>2017-11-24T11:52:19.458Z</updated>
+    <updated>2017-11-24T14:09:47.129Z</updated>
     
     <summary type="html">
     
@@ -95,6 +73,8 @@
       <category term="CDN" scheme="https://shup.cn/tags/CDN/"/>
     
       <category term="Hexo" scheme="https://shup.cn/tags/Hexo/"/>
+    
+      <category term="又拍云" scheme="https://shup.cn/tags/%E5%8F%88%E6%8B%8D%E4%BA%91/"/>
     
   </entry>
   
