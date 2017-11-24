@@ -100,7 +100,7 @@
 <meta property="og:image" content="http://shupcd.test.upcdn.net/ss/firewall.png">
 <meta property="og:image" content="http://shupcd.test.upcdn.net/ss/putty.png">
 <meta property="og:image" content="http://shupcd.test.upcdn.net/ss/ssh.png">
-<meta property="og:updated_time" content="2017-11-24T08:27:27.174Z">
+<meta property="og:updated_time" content="2017-11-24T08:29:34.935Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="使用免费的Google Cloud部署SS来科学上网">
 <meta name="twitter:description" content="之前一直想搞个搬瓦工或者vultr的VPS来部署SS，来实现科(V)学(P)上(N)网，但始终抢不到优惠的实例。偶然间发现Google Cloud在免费，而且貌似免费期从之前的2个月提高到1年，这样看来不用花一分钱，即可实现爱(翻)国(墙)上网，还可以在享受配置、性能更高、更稳定Google服务器，岂不美哉！">
@@ -497,8 +497,9 @@
 </li>
 <li><p>Google Cloud控制台 导入公钥<br>在<code>控制台/compute engine/元数据</code>中，右边点击<code>SSH密钥</code>，点击修改，添加刚刚保存的公钥<code>.pub</code>文件里的内容进去保存即可。</p>
 </li>
-<li><p>Putty里导入私钥 连接实例<br>打开Putty ，在<code>Connection/SSH/Auth</code>, 导入刚刚保存的私钥<code>.ppk</code>文件。如下图。接下来回到<code>session</code>，在Host Name (or IP address)中填入步骤1修改过的 <code>Key comment ＋@实例 ip</code>(比如rsa-key-20170905name@8.8.8.8)，即可登录SSH。连接成功后，输入<code>sudo -i</code>即可获得root权限。</p>
+<li><p>Putty里导入私钥 连接实例<br>打开Putty ，在<code>Connection/SSH/Auth</code>, 导入刚刚保存的私钥<code>.ppk</code>文件。如下图。接下来回到<code>session</code>，在Host Name (or IP address)中填入步骤1修改过的 <code>Key comment ＋@实例 ip</code>(比如rsa-key-20170905name@8.8.8.8)，即可登录SSH。</p>
 <img src="http://shupcd.test.upcdn.net/ss/putty.png" width="400" height="300">
+<p>连接成功后，输入<code>sudo -i</code>即可获得root权限。</p>
 <img src="http://shupcd.test.upcdn.net/ss/ssh.png" width="400" height="300">
 </li>
 </ol>
