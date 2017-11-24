@@ -94,13 +94,15 @@
 <meta property="og:description" content="之前一直想搞个搬瓦工或者vultr的VPS来部署SS，来实现科(V)学(P)上(N)网，但始终抢不到优惠的实例。偶然间发现Google Cloud在免费，而且貌似免费期从之前的2个月提高到1年，这样看来不用花一分钱，即可实现爱(翻)国(墙)上网，还可以在享受配置、性能更高、更稳定Google服务器，岂不美哉！">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://shupcd.test.upcdn.net/ss/free.png">
+<meta property="og:image" content="http://shupcd.test.upcdn.net/ss/free.png">
+<meta property="og:image" content="http://shupcd.test.upcdn.net/ss/free.png">
 <meta property="og:image" content="http://shupcd.test.upcdn.net/ss/first.png">
 <meta property="og:image" content="http://shupcd.test.upcdn.net/ss/kaitong1.png">
 <meta property="og:image" content="http://shupcd.test.upcdn.net/ss/kaitong2.png">
 <meta property="og:image" content="http://shupcd.test.upcdn.net/ss/firewall.png">
 <meta property="og:image" content="http://shupcd.test.upcdn.net/ss/putty.png">
 <meta property="og:image" content="http://shupcd.test.upcdn.net/ss/ssh.png">
-<meta property="og:updated_time" content="2017-11-24T05:18:09.225Z">
+<meta property="og:updated_time" content="2017-11-24T08:15:55.206Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="使用免费的Google Cloud部署SS来科学上网">
 <meta name="twitter:description" content="之前一直想搞个搬瓦工或者vultr的VPS来部署SS，来实现科(V)学(P)上(N)网，但始终抢不到优惠的实例。偶然间发现Google Cloud在免费，而且貌似免费期从之前的2个月提高到1年，这样看来不用花一分钱，即可实现爱(翻)国(墙)上网，还可以在享受配置、性能更高、更稳定Google服务器，岂不美哉！">
@@ -362,7 +364,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  1,715 字
+                  1,618 字
                 </span>
               
 
@@ -402,6 +404,8 @@
         <p>之前一直想搞个搬瓦工或者vultr的VPS来部署SS，来实现科(V)学(P)上(N)网，但始终抢不到优惠的实例。偶然间发现Google Cloud在免费，而且貌似免费期从之前的2个月提高到1年，这样看来不用花一分钱，即可实现爱(翻)国(墙)上网，还可以在享受配置、性能更高、更稳定Google服务器，岂不美哉！</p>
 <a id="more"></a>
 <h1 id="Google-Cloud免费简介"><a href="#Google-Cloud免费简介" class="headerlink" title="Google Cloud免费简介"></a>Google Cloud免费简介</h1><p>Google Cloud顾名思义即Google提供的云计算服务，和国内的阿里云、腾讯云、百度云类似。提供的服务无非也就那几大类：基础云计算服务、大数据类、物联网、CDN等等。免费以300刀赠金形式，可以体验所有产品当然也包括Compute Engine(即VPS)，需要注意Google的云主机计费方式与国内不同之处在于：国内一般是全包，而Google是云主机、公网IP和流量分开计费，需确保你在一年内的消费不超过300刀，后面会详细讲。<br><img src="http://shupcd.test.upcdn.net/ss/free.png" alt="free"></p>
+<p><img src="http://shupcd.test.upcdn.net/ss/free.png" height="300"></p>
+<img src="http://shupcd.test.upcdn.net/ss/free.png" title="[300]">
 <h1 id="申请与开通VPS主机"><a href="#申请与开通VPS主机" class="headerlink" title="申请与开通VPS主机"></a>申请与开通VPS主机</h1><p>在一切操作前，你需要先有一个临时的科(V)学(P)上(N)网环境，因为注册和配置Google云服务的工作需要在Google网站上完成。可以在手机里操作，目前有很多相关APP有免费使用时长，半个小时足以。</p>
 <p>另外，你需要准备好：</p>
 <ol>
@@ -513,12 +517,10 @@
 <ol>
 <li><p>在VPS上安装SS前，需要先安装最新内核并开启 BBR，可以使用秋水逸冰的一键安装脚本，具体<a href="https://teddysun.com/489.html" target="_blank" rel="external">看这里</a>。<br>BBR 即拥塞控制算法，目的是要尽量跑满带宽, 并且尽量不要有排队的情况, 效果并不比速锐差。据很多人反馈，速度比锐速还厉害！！</p>
 </li>
-<li><p>SS的安装和配置具体也可见秋水逸冰<a href="https://teddysun.com/486.html/comment-page-6" target="_blank" rel="external">一键安装脚本</a>。一般选择Python版。安装完成后，脚本提示如下：</p>
+<li><p>SS的安装和配置具体也可见秋水逸冰<a href="https://teddysun.com/486.html/comment-page-6" target="_blank" rel="external">一键安装脚本</a>。一般选择Python版。</p>
 </li>
-</ol>
-<figure class="highlight oxygene"><table><tr><td class="code"><pre><span class="line">Congratulations, your_shadowsocks_version install completed!</span><br><span class="line">Your Server IP        :your_server_ip           #SS服务器的IP</span><br><span class="line">Your Server Port      :your_server_port         #SS服务器的端口</span><br><span class="line">Your Password         :your_password            #SS服务器登陆密码</span><br><span class="line">Your Encryption <span class="function"><span class="keyword">Method</span>:</span>your_encryption_method   #SS服务器加密方式</span><br><span class="line"></span><br><span class="line">Your QR Code: (<span class="keyword">For</span> Shadowsocks Windows, OSX, Android <span class="keyword">and</span> iOS clients)</span><br><span class="line"> ss:<span class="comment">//your_encryption_method:your_password@your_server_ip:your_server_port</span></span><br><span class="line">Your QR Code <span class="keyword">has</span> been saved <span class="keyword">as</span> a PNG file path:</span><br><span class="line"> your_path.png</span><br><span class="line"></span><br><span class="line">Welcome <span class="keyword">to</span> visit:https:<span class="comment">//teddysun.com/486.html</span></span><br><span class="line">Enjoy it!</span><br></pre></td></tr></table></figure>
-<ol>
-<li>最后在Win、Mac、IOS、android中下载对应的SS客户端，填入以上配置好的IP、端口、密码，选择相应的加密方式(Win下，右键任务栏纸飞机小图标，启用系统代理)，即可去探索外面的世界了。</li>
+<li><p>最后在Win、Mac、IOS、android中下载对应的SS客户端，填入以上配置好的IP、端口、密码，选择相应的加密方式(Win下，右键任务栏纸飞机小图标，启用系统代理)，即可去探索外面的世界了。</p>
+</li>
 </ol>
 
       
