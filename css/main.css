@@ -653,7 +653,7 @@ pre .javascript .function {
 @media (min-width: 992px) {
   .full-image.full-image.full-image {
     max-width: none;
-    width: 50%;
+    width: 110%;
     margin: 25px -5%;
   }
 }
@@ -1932,7 +1932,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff1c82;
+  background: #deff7a;
 }
 .links-of-blogroll {
   font-size: 13px;
