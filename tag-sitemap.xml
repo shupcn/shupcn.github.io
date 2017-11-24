@@ -23,20 +23,6 @@
     </url>
 
     <url>
-        <loc>https://shup.cn/tags/CDN/</loc>
-        <lastmod>2017-11-24T11:19:51.293Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://shup.cn/tags/Hexo/</loc>
-        <lastmod>2017-11-24T11:22:29.222Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://shup.cn/tags/Valine/</loc>
         <lastmod>2017-11-24T11:22:29.222Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -53,6 +39,20 @@
     <url>
         <loc>https://shup.cn/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</loc>
         <lastmod>2017-11-24T11:25:06.059Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://shup.cn/tags/CDN/</loc>
+        <lastmod>2017-11-24T11:52:19.458Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://shup.cn/tags/Hexo/</loc>
+        <lastmod>2017-11-24T11:52:19.458Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
