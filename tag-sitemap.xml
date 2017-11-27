@@ -2,13 +2,6 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>https://shup.cn/tags/Valine/</loc>
-        <lastmod>2017-11-24T11:22:29.222Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://shup.cn/tags/CDN/</loc>
         <lastmod>2017-11-24T14:09:47.129Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -24,28 +17,35 @@
 
     <url>
         <loc>https://shup.cn/tags/SS/</loc>
-        <lastmod>2017-11-24T14:20:20.813Z</lastmod>
+        <lastmod>2017-11-25T15:14:53.912Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://shup.cn/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</loc>
-        <lastmod>2017-11-24T14:20:20.813Z</lastmod>
+        <lastmod>2017-11-25T15:14:53.912Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://shup.cn/tags/Valine/</loc>
+        <lastmod>2017-11-27T02:14:36.843Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://shup.cn/tags/Hexo/</loc>
-        <lastmod>2017-11-24T14:21:00.821Z</lastmod>
+        <lastmod>2017-11-27T02:15:46.494Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://shup.cn/tags/VPS/</loc>
-        <lastmod>2017-11-24T14:21:00.821Z</lastmod>
+        <lastmod>2017-11-27T02:15:46.494Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
