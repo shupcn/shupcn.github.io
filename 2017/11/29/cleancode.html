@@ -93,7 +93,7 @@
 <meta property="og:site_name" content="Shup">
 <meta property="og:description" content="你是否见过下面这样的代码？  public String getProductNames(List&amp;lt;Product&amp;gt; products) &amp;#123;    StringBuilder strBuf = new StringBuilder();    int i = 0;    strBuf.append(products.get(0).name);    while (i &amp;lt;">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-11-30T07:51:04.775Z">
+<meta property="og:updated_time" content="2017-11-30T07:52:29.570Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="让你的代码变得更简洁、干净">
 <meta name="twitter:description" content="你是否见过下面这样的代码？  public String getProductNames(List&amp;lt;Product&amp;gt; products) &amp;#123;    StringBuilder strBuf = new StringBuilder();    int i = 0;    strBuf.append(products.get(0).name);    while (i &amp;lt;">
@@ -106,7 +106,7 @@
     root: '/',
     scheme: 'Muse',
     version: '5.1.3',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":true},
+    sidebar: {"position":"left","display":"hide","offset":12,"b2t":false,"scrollpercent":false,"onmobile":true},
     fancybox: true,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
@@ -403,7 +403,7 @@
 <p>这段代码看起来像战后的战场。看上去碰过这段代码的开发者都很烦它，且尽力回避它，让它处于更糟的状态。凌乱的格式和糟糕的定义清楚地表明，不止一个开发人员掉过坑，听起来像<a href="https://baike.baidu.com/item/%E7%A0%B4%E7%AA%97%E7%90%86%E8%AE%BA" target="_blank" rel="external"><strong>破窗理论</strong></a>对吧？想明白这段代码的功能并不容易（不仅仅是因为你看代码时感觉辣眼睛），这段代码其实返回的是数组的总和减去元素的数量。让我们以更简单的方式来做到这一点：</p>
 <figure class="highlight axapta"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span> sumMinusCount(<span class="keyword">int</span> arr[]) &#123;</span><br><span class="line">    <span class="keyword">int</span> <span class="keyword">sum</span> = IntStream.of(arr).<span class="keyword">sum</span>();</span><br><span class="line">    <span class="keyword">int</span> <span class="keyword">count</span> = arr.length;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">sum</span> - <span class="keyword">count</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>现在，用Java 8的<em>Stream</em>，让代码更加简洁并增强可读性。</p>
-<h1 id="干净的代码！"><a href="#干净的代码！" class="headerlink" title="干净的代码！"></a>干净的代码！</h1><p>干净的代码不是<em>让代码看起来漂亮</em>，而是<em>使代码更易于维护</em>。当代码太晦涩难懂时，大部分时间浪费在阅读上，导致开发者的生产力降低了，而且使用它的开发人员通常也会让它变得更糟，就像上面讲的那样。原因并不是因为他们无法理清代码，而是由于时间和精力的限制。碰到这样的代码时，很难估计修复bug、植入一个新模块或实现一个新功能需要多长时间，因为原框架和设计隐藏在代码中，不容易发现。因此，为了完成工作，最终会选择草草了事。干净的代码可以表明作者的意图，即便在代码中存在错误，也很容易找到并修复它，也可以长期节省维护时间。</p>
+<h1 id="干净的代码"><a href="#干净的代码" class="headerlink" title="干净的代码"></a>干净的代码</h1><p>干净的代码不是<em>让代码看起来漂亮</em>，而是<em>使代码更易于维护</em>。当代码太晦涩难懂时，大部分时间浪费在阅读上，导致开发者的生产力降低了，而且使用它的开发人员通常也会让它变得更糟，就像上面讲的那样。原因并不是因为他们无法理清代码，而是由于时间和精力的限制。碰到这样的代码时，很难估计修复bug、植入一个新模块或实现一个新功能需要多长时间，因为原框架和设计隐藏在代码中，不容易发现。因此，为了完成工作，最终会选择草草了事。干净的代码可以表明作者的意图，即便在代码中存在错误，也很容易找到并修复它，也可以长期节省维护时间。</p>
 <p>解决（或提高）代码可维护性的方法是花费几个月（或更多）的时间来重构和清理，但是不管企业还是个人通常不太可能接受暂停开发，重构代码。所以，我们能做些什么？</p>
 <h1 id="童子军原则"><a href="#童子军原则" class="headerlink" title="童子军原则"></a>童子军原则</h1><p>正如Bob大叔所说，“童子军原则”背后的想法其实非常简单：<em>让代码更干净！</em>任何时候你碰到旧的代码，应该先妥善地清理好它。不要只是快捷方式处理，让代码更难理解，而应该认真地对待。这个原则更多地关注开发者应该具有的心态，通过把代码变得更易于维护，让他们的日子过得更舒服。</p>
 <p>在大多数情况下处理保留系统是很不容易的，特别是当没有测试或测试套件不再被维护的时候，仍然应该努力使代码更干净。关于如何编写更具表达性的代码，这篇文章更关注一些有用的、<strong>一般性</strong>的建议。</p>
@@ -691,7 +691,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#代码也在讲故事"><span class="nav-number">1.</span> <span class="nav-text">代码也在讲故事</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#干净的代码！"><span class="nav-number">2.</span> <span class="nav-text">干净的代码！</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#童子军原则"><span class="nav-number">3.</span> <span class="nav-text">童子军原则</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#编写前的思考"><span class="nav-number">4.</span> <span class="nav-text">编写前的思考</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#提高表达性"><span class="nav-number">5.</span> <span class="nav-text">提高表达性</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#拥抱不可变对象"><span class="nav-number">6.</span> <span class="nav-text">拥抱不可变对象</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#代码也在讲故事"><span class="nav-number">1.</span> <span class="nav-text">代码也在讲故事</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#干净的代码"><span class="nav-number">2.</span> <span class="nav-text">干净的代码</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#童子军原则"><span class="nav-number">3.</span> <span class="nav-text">童子军原则</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#编写前的思考"><span class="nav-number">4.</span> <span class="nav-text">编写前的思考</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#提高表达性"><span class="nav-number">5.</span> <span class="nav-text">提高表达性</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#拥抱不可变对象"><span class="nav-number">6.</span> <span class="nav-text">拥抱不可变对象</span></a></li></ol></div>
             
 
           </div>

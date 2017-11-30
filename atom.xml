@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://shup.cn/"/>
-  <updated>2017-11-30T07:51:04.775Z</updated>
+  <updated>2017-11-30T07:52:29.570Z</updated>
   <id>https://shup.cn/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://shup.cn/2017/11/29/cleancode.html"/>
     <id>https://shup.cn/2017/11/29/cleancode.html</id>
     <published>2017-11-29T10:29:30.000Z</published>
-    <updated>2017-11-30T07:51:04.775Z</updated>
+    <updated>2017-11-30T07:52:29.570Z</updated>
     
     <summary type="html">
     
@@ -49,11 +49,11 @@
     </summary>
     
     
+      <category term="VPS" scheme="https://shup.cn/tags/VPS/"/>
+    
       <category term="SS" scheme="https://shup.cn/tags/SS/"/>
     
       <category term="科学上网" scheme="https://shup.cn/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
-    
-      <category term="VPS" scheme="https://shup.cn/tags/VPS/"/>
     
   </entry>
   
@@ -91,9 +91,9 @@
     </summary>
     
     
-      <category term="CDN" scheme="https://shup.cn/tags/CDN/"/>
-    
       <category term="Hexo" scheme="https://shup.cn/tags/Hexo/"/>
+    
+      <category term="CDN" scheme="https://shup.cn/tags/CDN/"/>
     
       <category term="又拍云" scheme="https://shup.cn/tags/%E5%8F%88%E6%8B%8D%E4%BA%91/"/>
     
@@ -113,9 +113,9 @@
     </summary>
     
     
-      <category term="Hexo" scheme="https://shup.cn/tags/Hexo/"/>
-    
       <category term="VPS" scheme="https://shup.cn/tags/VPS/"/>
+    
+      <category term="Hexo" scheme="https://shup.cn/tags/Hexo/"/>
     
   </entry>
   
