@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>https://shup.cn/2017/11/29/cleancode.html</loc>
+        <lastmod>2017-11-30T07:16:54.681Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://shup.cn/2017/11/16/hexo.html</loc>
         <lastmod>2017-11-27T02:15:46.494Z</lastmod>
         <changefreq>weekly</changefreq>
