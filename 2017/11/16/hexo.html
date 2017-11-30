@@ -72,7 +72,7 @@
 
 
 
-  <meta name="keywords" content="VPS,Hexo," />
+  <meta name="keywords" content="Hexo,VPS," />
 
 
 
@@ -86,7 +86,7 @@
 
 
 <meta name="description" content="自双11购入了阿里云的VPS后，一直想着捯饬些什么，首当其冲的就是搭一个博客站点。之前使用过WordPress、Joomla、Drupal、国人的Typecho、Emlog、Zblog等。前几个国外的博客虽然功能、插件、模版丰富，但感觉略显臃肿，过多冗余之处，不适合做个人站点使用，尤其不适合笔者的1G1M的小水管主机。而国人的Typecho、Emlog感觉不错，安装使用简单、占用内存少、界面清新，">
-<meta name="keywords" content="VPS,Hexo">
+<meta name="keywords" content="Hexo,VPS">
 <meta property="og:type" content="article">
 <meta property="og:title" content="在阿里云VPS上部署Hexo">
 <meta property="og:url" content="https://shup.cn/2017/11/16/hexo.html">
@@ -99,7 +99,7 @@
 <meta property="og:image" content="https://cdn.shup.cn/hexo/ssh-run.png">
 <meta property="og:image" content="https://cdn.shup.cn/hexo/pwd.png">
 <meta property="og:image" content="https://cdn.shup.cn/hexo/nginx.png">
-<meta property="og:updated_time" content="2017-11-27T02:15:46.494Z">
+<meta property="og:updated_time" content="2017-11-30T10:01:15.549Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="在阿里云VPS上部署Hexo">
 <meta name="twitter:description" content="自双11购入了阿里云的VPS后，一直想着捯饬些什么，首当其冲的就是搭一个博客站点。之前使用过WordPress、Joomla、Drupal、国人的Typecho、Emlog、Zblog等。前几个国外的博客虽然功能、插件、模版丰富，但感觉略显臃肿，过多冗余之处，不适合做个人站点使用，尤其不适合笔者的1G1M的小水管主机。而国人的Typecho、Emlog感觉不错，安装使用简单、占用内存少、界面清新，">
@@ -403,7 +403,7 @@
 <p>Hexo的介绍不再赘述，可以登录其<a href="https://hexo.io/zh-cn/" target="_blank" rel="external">中文官网</a>了解。其实在接触Hexo之前，笔者就对纯静态的博客框架有所了解，比如jekyll、octopress等。与Hexo一样，他们的共同的优点就是部署页面纯静态html，加载速度快、浏览体验好、占用内存小，支持Markdown，当然最重要的一点是<strong>有逼格</strong>。最终放弃Jekyll等等选择Hexo的原因是：相对于Jekyll基于Ruby实现，Hexo基于Node.js，在Windows上安装Node.js环境更简单，另外，Hexo的主题更符合我的品位。</p>
 <p>这类静态博客系统最大的一个缺陷就在于要求用户具有一定的技术水平，Hexo是我见过最难建立的博客系统。网上有很多文章是把Hexo部署到Github或者Coding等，优点是搭建快捷、免费，缺点显而易见，Github远在大洋彼岸，加载速度可想而知，而Coding则是有广告。既然已经有了云主机，当然不能浪费。笔者阅读了网上N多文章及教程，踩过坑，走过弯路，在经历N次的失败后，终于搭建成功。下面就把最简明扼要的过程列出来，谨以此自勉或造福后人。</p>
 <hr>
-<h1 id="准备条件"><a href="#准备条件" class="headerlink" title="准备条件"></a>准备条件</h1><h2 id="VPS及域名"><a href="#VPS及域名" class="headerlink" title="VPS及域名"></a>VPS及域名</h2><p>笔者购买的是阿里云的轻量云服务器，1核1G1M20GSSD，CentOS 7.4系统，搭配<a href="bt.cn">宝塔面板</a>(方便可视化操作)，本文操作过程理论上适用于其他Linux系统。域名需添加A解析记录指向主机IP，域名购买、解析(国内VPS需备案)的过程请自行搜索。</p>
+<h1 id="准备条件"><a href="#准备条件" class="headerlink" title="准备条件"></a>准备条件</h1><h2 id="VPS及域名"><a href="#VPS及域名" class="headerlink" title="VPS及域名"></a>VPS及域名</h2><p>笔者购买的是阿里云的轻量云服务器，1核1G1M20GSSD，CentOS 7.4系统，搭配<a href="https://www.bt.cn" target="_blank" rel="external">宝塔面板</a>(方便可视化操作)，本文操作过程理论上适用于其他Linux系统。域名需添加A解析记录指向主机IP，域名购买、解析(国内VPS需备案)的过程请自行搜索。</p>
 <h2 id="SSH工具"><a href="#SSH工具" class="headerlink" title="SSH工具"></a>SSH工具</h2><p>SSH工具是我们用来以命令行的方式远程操作服务器端。Putty小巧、免费，Xshell功能更强大，但是收费。笔者使用的是Putty，点此下载<a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html" target="_blank" rel="external">(最新版)</a>，注意本地操作系统，自行下载相应版本安装。如何使用SSH工具连接VPS，请看阿里云的<a href="https://help.aliyun.com/document_detail/59083.html#windows" target="_blank" rel="external">官方教程</a>。</p>
 <h1 id="本地端配置"><a href="#本地端配置" class="headerlink" title="本地端配置"></a>本地端配置</h1><p>本地配置很简单，依次安装好Node.js和Git,再安装Hexo即可，Hexo需要前两者的支持。本人是用的win10系统，本地端不需要什么配置，只要安装相应版本即可，Mac或Linux系统应该更容易。</p>
 <h2 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h2><p>这里给出Node.js官方下载链接：<a href="https://nodejs.org/zh-cn/download/" target="_blank" rel="external">https://nodejs.org/zh-cn/download/</a><br>安装没什么好说的，一路默认下一步即可。</p>
@@ -595,9 +595,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/VPS/" rel="tag"># VPS</a>
-          
             <a href="/tags/Hexo/" rel="tag"># Hexo</a>
+          
+            <a href="/tags/VPS/" rel="tag"># VPS</a>
           
         </div>
       
