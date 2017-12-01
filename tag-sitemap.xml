@@ -37,13 +37,6 @@
     </url>
 
     <url>
-        <loc>https://shup.cn/tags/%E5%B9%B2%E5%87%80%E4%BB%A3%E7%A0%81/</loc>
-        <lastmod>2017-11-30T07:52:29.570Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://shup.cn/tags/Hexo/</loc>
         <lastmod>2017-11-30T10:01:15.549Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -53,6 +46,13 @@
     <url>
         <loc>https://shup.cn/tags/VPS/</loc>
         <lastmod>2017-11-30T10:01:15.549Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://shup.cn/tags/%E5%B9%B2%E5%87%80%E4%BB%A3%E7%A0%81/</loc>
+        <lastmod>2017-12-01T01:51:55.835Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
