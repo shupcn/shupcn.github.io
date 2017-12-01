@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://shup.cn/"/>
-  <updated>2017-12-01T01:51:55.835Z</updated>
+  <updated>2017-12-01T03:32:35.143Z</updated>
   <id>https://shup.cn/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>最常用的20个Linux命令(适用Ubuntu/Centos/MAC/Debian等)</title>
+    <link href="https://shup.cn/2017/12/01/linux.html"/>
+    <id>https://shup.cn/2017/12/01/linux.html</id>
+    <published>2017-12-01T02:30:36.000Z</published>
+    <updated>2017-12-01T03:32:35.143Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;接触过Linux的人都会知道，Linux中的命令的确是非常多，但其中只需要掌握最常用的命令就可以了。相对于Win、Mac、Ubuntu或者其他可视化系统界面，掌握这些命令可以大大提高操作速度。笔者主要是用Linux进行服务器的运维和Python编程，然而每个人用Linux的目的都不同，所以常用的命令也会有差异。在此总结一下，方便一下以后的查阅。&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="Linux" scheme="https://shup.cn/tags/Linux/"/>
+    
+      <category term="命令" scheme="https://shup.cn/tags/%E5%91%BD%E4%BB%A4/"/>
+    
+  </entry>
   
   <entry>
     <title>让你的代码变得更简洁、干净</title>
