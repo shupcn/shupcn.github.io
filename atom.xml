@@ -133,9 +133,9 @@
     </summary>
     
     
-      <category term="CDN" scheme="https://shup.cn/tags/CDN/"/>
-    
       <category term="Hexo" scheme="https://shup.cn/tags/Hexo/"/>
+    
+      <category term="CDN" scheme="https://shup.cn/tags/CDN/"/>
     
       <category term="又拍云" scheme="https://shup.cn/tags/%E5%8F%88%E6%8B%8D%E4%BA%91/"/>
     
@@ -155,9 +155,9 @@
     </summary>
     
     
-      <category term="Hexo" scheme="https://shup.cn/tags/Hexo/"/>
-    
       <category term="VPS" scheme="https://shup.cn/tags/VPS/"/>
+    
+      <category term="Hexo" scheme="https://shup.cn/tags/Hexo/"/>
     
   </entry>
   
