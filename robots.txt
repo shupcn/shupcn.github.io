@@ -1,21 +1,17 @@
 # hexo robots.txt
 
-User-agent: * Allow: /
-
-Allow: /tags/
-
+User-agent: * 
+Allow: /
+Allow: /2017/
 Allow: /about/
-Disallow: /vendors/
+Allow: /tags/
+Disallow: /css/
+
+Disallow: /images/
 
 Disallow: /js/
 
-Disallow: /css/
-
-Disallow: /fonts/
-
-Disallow: /vendors/
-
-Disallow: /fancybox/
+Disallow: /lib/
 
 
 
