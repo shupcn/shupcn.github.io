@@ -1932,7 +1932,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #38d462;
+  background: #3bff09;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2786,4 +2786,14 @@ embed {
 }
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
+}
+.upyun img {
+  display: inline;
+  vertical-align: -18%;
+}
+.upyun a {
+  border-bottom: 0px;
+}
+.footer-custom a {
+  border-bottom: 0px;
 }
