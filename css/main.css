@@ -1932,7 +1932,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #3bff09;
+  background: #8eacbe;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2795,5 +2795,6 @@ embed {
   border-bottom: 0px;
 }
 .footer-custom a {
+  color: #999;
   border-bottom: 0px;
 }
