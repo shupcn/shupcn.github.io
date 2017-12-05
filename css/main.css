@@ -1932,7 +1932,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #94ffaf;
+  background: #17ffb5;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2740,7 +2740,7 @@ embed {
 .custom-logo-image {
   margin: 0 auto;
   padding: 5px;
-  max-width: 80px;
+  max-width: 96px;
   background: #fff;
 }
 @media (max-width: 767px) {
