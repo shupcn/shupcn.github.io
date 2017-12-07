@@ -1,7 +1,0 @@
-https://shup.cn/2017/12/04/machinelearning.html
-https://shup.cn/2017/12/01/linux.html
-https://shup.cn/2017/11/29/cleancode.html
-https://shup.cn/2017/11/23/ss.html
-https://shup.cn/2017/11/21/valine.html
-https://shup.cn/2017/11/21/cdn.html
-https://shup.cn/2017/11/16/hexo.html
