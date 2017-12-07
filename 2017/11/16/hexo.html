@@ -95,7 +95,7 @@
 <meta property="og:image" content="https://cdn.shup.cn/hexo/ssh-run.png">
 <meta property="og:image" content="https://cdn.shup.cn/hexo/pwd.png">
 <meta property="og:image" content="https://cdn.shup.cn/hexo/nginx.png">
-<meta property="og:updated_time" content="2017-11-30T10:01:15.549Z">
+<meta property="og:updated_time" content="2017-12-07T09:20:27.209Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="在阿里云VPS上部署Hexo">
 <meta name="twitter:description" content="自双11购入了阿里云的VPS后，一直想着捯饬些什么，首当其冲的就是搭一个博客站点。之前使用过WordPress、Joomla、Drupal、国人的Typecho、Emlog、Zblog等。前几个国外的博客虽然功能、插件、模版丰富，但感觉略显臃肿，过多冗余之处，不适合做个人站点使用，尤其不适合笔者的1G1M的小水管主机。而国人的Typecho、Emlog感觉不错，安装使用简单、占用内存少、界面清新，">
@@ -391,8 +391,7 @@
       
 
       
-        <p>自双11购入了阿里云的VPS后，一直想着捯饬些什么，首当其冲的就是搭一个博客站点。之前使用过WordPress、Joomla、Drupal、国人的Typecho、Emlog、Zblog等。前几个国外的博客虽然功能、插件、模版丰富，但感觉略显臃肿，过多冗余之处，不适合做个人站点使用，尤其不适合笔者的1G1M的小水管主机。而国人的Typecho、Emlog感觉不错，安装使用简单、占用内存少、界面清新，没有多余的功能，支持Markdown，还原写作本质。但在使用中，出现不少小问题，细节不完善，影响实际体验，遂弃之。直到遇见了<strong>Hexo</strong>……</p>
-<a id="more"></a>
+        <p>自双11购入了阿里云的VPS后，一直想着捯饬些什么，首当其冲的就是搭一个博客站点。之前使用过WordPress、Joomla、Drupal、国人的Typecho、Emlog、Zblog等。前几个国外的博客虽然功能、插件、模版丰富，但感觉略显臃肿，过多冗余之处，不适合做个人站点使用，尤其不适合笔者的1G1M的小水管主机。而国人的Typecho、Emlog感觉不错，安装使用简单、占用内存少、界面清新，没有多余的功能，支持Markdown，还原写作本质。但在使用中，出现不少小问题，细节不完善，影响实际体验，遂弃之。直到遇见了<strong>Hexo</strong>……<br><a id="more"></a></p>
 <p>Hexo的介绍不再赘述，可以登录其<a href="https://hexo.io/zh-cn/" rel="external nofollow noopener noreferrer" target="_blank">中文官网</a>了解。其实在接触Hexo之前，笔者就对纯静态的博客框架有所了解，比如jekyll、octopress等。与Hexo一样，他们的共同的优点就是部署页面纯静态html，加载速度快、浏览体验好、占用内存小，支持Markdown，当然最重要的一点是<strong>有逼格</strong>。最终放弃Jekyll等等选择Hexo的原因是：相对于Jekyll基于Ruby实现，Hexo基于Node.js，在Windows上安装Node.js环境更简单，另外，Hexo的主题更符合我的品位。</p>
 <p>这类静态博客系统最大的一个缺陷就在于要求用户具有一定的技术水平，Hexo是我见过最难建立的博客系统。网上有很多文章是把Hexo部署到Github或者Coding等，优点是搭建快捷、免费，缺点显而易见，Github远在大洋彼岸，加载速度可想而知，而Coding则是有广告。既然已经有了云主机，当然不能浪费。笔者阅读了网上N多文章及教程，踩过坑，走过弯路，在经历N次的失败后，终于搭建成功。下面就把最简明扼要的过程列出来，谨以此自勉或造福后人。</p>
 <hr>
@@ -465,8 +464,7 @@
 <img src="https://cdn.shup.cn/hexo/ssh-run.png" width="400" height="300"></li>
 <li><p><strong>本地端</strong>ssh配置 </p>
 <p>打开Git Bash，输入<code>pwd</code>查看本地用户的文件夹地址，如下图，一般默认在<code>C:\User\你的账户名</code>。然后打开用户文件夹里的<code>.ssh</code>文件夹，把刚刚从服务器上下载到本地的两个密钥文件拷贝进去。</p>
-<img src="https://cdn.shup.cn/hexo/pwd.png" width="400" height="300">
-</li>
+<img src="https://cdn.shup.cn/hexo/pwd.png" width="400" height="300"></li>
 <li><p><strong>本地端</strong>ssh验证</p>
 <figure class="highlight gherkin"><table><tr><td class="code"><pre><span class="line">ssh hexo<span class="meta">@你的域名或者IP</span> //<span class="meta">@前是你创建的站点管理用户</span></span><br></pre></td></tr></table></figure>
 </li>
@@ -491,8 +489,7 @@
 <figure class="highlight stata"><table><tr><td class="code"><pre><span class="line"><span class="keyword">su</span> hexo</span><br><span class="line"><span class="keyword">cd</span> ~</span><br><span class="line"><span class="keyword">mkdir</span> www</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>验证配置是否正确，如下图。</p>
-<img src="https://cdn.shup.cn/hexo/nginx.png" width="400" height="300">
-</li>
+<img src="https://cdn.shup.cn/hexo/nginx.png" width="400" height="300"></li>
 <li><p>启动nginx服务并测试</p>
 <figure class="highlight awk"><table><tr><td class="code"><pre><span class="line">sudo service nginx start</span><br><span class="line">echo <span class="string">"hello nginx"</span> &gt; <span class="regexp">/home/</span>hexo<span class="regexp">/www/i</span>ndex.html	<span class="regexp">//</span>站点根目录下新建index.html</span><br></pre></td></tr></table></figure>
 <p>在浏览器中输入你的<strong>域名</strong>或VPS的<strong>IP地址</strong>，出现<strong>hello nginx</strong>字样表示nginx代理服务器搭建成功！</p>

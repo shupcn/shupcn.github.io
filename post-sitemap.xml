@@ -7,8 +7,48 @@
     </url>
 
     <url>
+        <loc>https://shup.cn/2017/11/29/cleancode.html</loc>
+        <lastmod>2017-12-07T09:21:23.540Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://shup.cn/2017/11/21/cdn.html</loc>
+        <lastmod>2017-12-07T09:20:42.891Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://shup.cn/2017/11/16/hexo.html</loc>
+        <lastmod>2017-12-07T09:20:27.209Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://shup.cn/2017/11/23/ss.html</loc>
+        <lastmod>2017-12-07T09:19:40.961Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://shup.cn/2017/11/21/valine.html</loc>
+        <lastmod>2017-12-07T09:18:38.556Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://shup.cn/2017/12/04/machinelearning.html</loc>
-        <lastmod>2017-12-05T15:56:45.577Z</lastmod>
+        <lastmod>2017-12-07T09:09:57.031Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -17,46 +57,6 @@
     <url>
         <loc>https://shup.cn/2017/12/01/linux.html</loc>
         <lastmod>2017-12-05T12:48:33.258Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://shup.cn/2017/11/29/cleancode.html</loc>
-        <lastmod>2017-12-01T01:51:55.835Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://shup.cn/2017/11/16/hexo.html</loc>
-        <lastmod>2017-11-30T10:01:15.549Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://shup.cn/2017/11/21/valine.html</loc>
-        <lastmod>2017-11-27T02:14:36.843Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://shup.cn/2017/11/23/ss.html</loc>
-        <lastmod>2017-11-25T15:14:53.912Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://shup.cn/2017/11/21/cdn.html</loc>
-        <lastmod>2017-11-24T14:09:47.129Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
