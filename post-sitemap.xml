@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>https://shup.cn/2017/11/21/valine.html</loc>
+        <lastmod>2017-12-07T09:25:05.557Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://shup.cn/2017/11/29/cleancode.html</loc>
         <lastmod>2017-12-07T09:21:23.540Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -33,14 +41,6 @@
     <url>
         <loc>https://shup.cn/2017/11/23/ss.html</loc>
         <lastmod>2017-12-07T09:19:40.961Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://shup.cn/2017/11/21/valine.html</loc>
-        <lastmod>2017-12-07T09:18:38.556Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
