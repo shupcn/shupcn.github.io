@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://shup.cn/"/>
-  <updated>2017-12-12T03:36:19.795Z</updated>
+  <updated>2017-12-12T08:12:20.002Z</updated>
   <id>https://shup.cn/</id>
   
   <author>
@@ -15,6 +15,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用Github的10个实用技巧</title>
+    <link href="https://shup.cn/2017/12/12/github.html"/>
+    <id>https://shup.cn/2017/12/12/github.html</id>
+    <published>2017-12-12T03:41:19.000Z</published>
+    <updated>2017-12-12T08:12:20.002Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;GitHub是一个面向开源及私有软件项目的托管平台，因为只支持&lt;code&gt;git&lt;/code&gt;作为唯一的版本库格式进行托管，故名GitHub。除了代码仓库托管及基本的 Web管理界面以外，还提供了订阅、讨论、文本渲染、在线文件编辑、协作图谱（报表）、代码片段分享（Gist）等功能。目前，注册用户已经超过350万，托管版本数量也是非常之多，其中不乏知名开源项目 Ruby、jQuery、Python等。使用Github已经有一段时间了，下面总结一下Github的10个实用技巧：&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Github" scheme="https://shup.cn/tags/Github/"/>
+    
+  </entry>
   
   <entry>
     <title>基于Python的下载神器You-Get</title>
