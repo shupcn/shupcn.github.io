@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>https://shup.cn/2017/12/12/youget.html</loc>
+        <lastmod>2017-12-12T03:36:19.795Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://shup.cn/2017/12/04/machinelearning.html</loc>
         <lastmod>2017-12-07T10:13:44.320Z</lastmod>
         <changefreq>weekly</changefreq>

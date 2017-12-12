@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://shup.cn/"/>
-  <updated>2017-12-07T10:13:44.320Z</updated>
+  <updated>2017-12-12T03:36:19.795Z</updated>
   <id>https://shup.cn/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>基于Python的下载神器You-Get</title>
+    <link href="https://shup.cn/2017/12/12/youget.html"/>
+    <id>https://shup.cn/2017/12/12/youget.html</id>
+    <published>2017-12-12T02:00:55.000Z</published>
+    <updated>2017-12-12T03:36:19.795Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;You-Get(&lt;a href=&quot;https://you-get.org/&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;官网&lt;/a&gt;)乃一小小哒命令行程序，通过极其便利的方式来下载网络上的媒体信息（视频，音频，图像）等。只需要在命令行输入&lt;code&gt;you-get+&amp;#39;链接&amp;#39;&lt;/code&gt;，程序就可以自动解析文件地址，并自动开始下载并保存。比如下面这个例子：&lt;/p&gt;
+&lt;figure class=&quot;highlight groovy&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;you-get &lt;span class=&quot;string&quot;&gt;http:&lt;/span&gt;&lt;span class=&quot;comment&quot;&gt;//www.fsf.org/blogs/rms/20140407-geneva-tedx-talk-free-software-free-society&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;Site:&lt;/span&gt;       fsf.org&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;Title:&lt;/span&gt;      TEDxGE2014_Stallman05_LQ&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;Type:&lt;/span&gt;       WebM video (video/webm)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;Size:&lt;/span&gt;       &lt;span class=&quot;number&quot;&gt;27.12&lt;/span&gt; MiB (&lt;span class=&quot;number&quot;&gt;28435804&lt;/span&gt; Bytes)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Downloading TEDxGE2014_Stallman05_LQ.webm ...&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;number&quot;&gt;100.0&lt;/span&gt;% ( &lt;span class=&quot;number&quot;&gt;27.1&lt;/span&gt;&lt;span class=&quot;regexp&quot;&gt;/27.1 MB) ├████████████████████████████████████████┤[1/&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;]   &lt;span class=&quot;number&quot;&gt;12&lt;/span&gt; MB/s&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+      <category term="You-Get" scheme="https://shup.cn/tags/You-Get/"/>
+    
+      <category term="Python" scheme="https://shup.cn/tags/Python/"/>
+    
+  </entry>
   
   <entry>
     <title>非技术人员的机器学习入门指南</title>
@@ -127,9 +148,9 @@
     </summary>
     
     
-      <category term="Hexo" scheme="https://shup.cn/tags/Hexo/"/>
-    
       <category term="CDN" scheme="https://shup.cn/tags/CDN/"/>
+    
+      <category term="Hexo" scheme="https://shup.cn/tags/Hexo/"/>
     
       <category term="又拍云" scheme="https://shup.cn/tags/%E5%8F%88%E6%8B%8D%E4%BA%91/"/>
     
@@ -149,9 +170,9 @@
     </summary>
     
     
-      <category term="VPS" scheme="https://shup.cn/tags/VPS/"/>
-    
       <category term="Hexo" scheme="https://shup.cn/tags/Hexo/"/>
+    
+      <category term="VPS" scheme="https://shup.cn/tags/VPS/"/>
     
   </entry>
   
