@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://shup.cn/"/>
-  <updated>2017-12-12T08:12:20.002Z</updated>
+  <updated>2017-12-18T10:19:42.534Z</updated>
   <id>https://shup.cn/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>人工智能的应用场景及企业应用AI的思考</title>
+    <link href="https://shup.cn/2017/12/18/aiapp.html"/>
+    <id>https://shup.cn/2017/12/18/aiapp.html</id>
+    <published>2017-12-18T09:07:02.000Z</published>
+    <updated>2017-12-18T10:19:42.534Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;“我觉得不行！”；“我觉得可以！”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这正是现在大家看待AI的两种态度。有人觉得现在去谈人工智能的商业化为时尚早，但也有人觉得人工智能已经在企业的许多业务场景中发挥至关重要的作用。无论如何，作为一个刷爆朋友圈，并且曝光度与日俱增的热门话题，许多企业都已经对AI“蠢蠢欲动”，甚至“先下手为强”了。&lt;/p&gt;
+&lt;p&gt;不仅大大小小的科技公司都开始纷纷自觉贴上人工智能的标签，许多企业也开始尝试利用人工智能技术不断优化企业的运营。这样的方式不仅给消费者带来了便利，也使得公司可以更好地收集消费者相关的数据、了解消费者行为，并相应地调整其产品和服务，改善公司的管理运营。&lt;/p&gt;
+&lt;p&gt;关于人工智能的商业化，麦肯锡全球研究院跨越14个行业、10个国家，对3073名企业高管进行了调查，并分析了160个案例，最终发布了《&lt;a href=&quot;https://cdn.shup.cn/aiapp/mckinsey.pdf&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;人工智能：下一个数字前沿？&lt;/a&gt;》报告，其中，报告详细描述了5个应用案例，并对零售、电力、医疗3个行业应用进行了图解：&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="人工智能" scheme="https://shup.cn/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
+    
+      <category term="应用" scheme="https://shup.cn/tags/%E5%BA%94%E7%94%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>使用Github的10个实用技巧</title>
