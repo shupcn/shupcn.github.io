@@ -7,16 +7,56 @@
     </url>
 
     <url>
-        <loc>https://shup.cn/2017/12/18/aiapp.html</loc>
-        <lastmod>2017-12-21T07:07:38.103Z</lastmod>
+        <loc>https://shup.cn/2017/12/12/github.html</loc>
+        <lastmod>2017-12-21T07:40:21.237Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>https://shup.cn/2017/12/12/github.html</loc>
-        <lastmod>2017-12-12T08:12:20.002Z</lastmod>
+        <loc>https://shup.cn/2017/12/04/machinelearning.html</loc>
+        <lastmod>2017-12-21T07:39:44.680Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://shup.cn/2017/11/21/valine.html</loc>
+        <lastmod>2017-12-21T07:38:39.599Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://shup.cn/2017/11/21/cdn.html</loc>
+        <lastmod>2017-12-21T07:37:41.967Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://shup.cn/2017/11/16/hexo.html</loc>
+        <lastmod>2017-12-21T07:34:21.543Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://shup.cn/2017/11/23/ss.html</loc>
+        <lastmod>2017-12-21T07:28:54.924Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://shup.cn/2017/12/18/aiapp.html</loc>
+        <lastmod>2017-12-21T07:07:38.103Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -31,48 +71,8 @@
     </url>
 
     <url>
-        <loc>https://shup.cn/2017/12/04/machinelearning.html</loc>
-        <lastmod>2017-12-07T10:13:44.320Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://shup.cn/2017/11/21/valine.html</loc>
-        <lastmod>2017-12-07T09:29:16.539Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://shup.cn/2017/11/29/cleancode.html</loc>
         <lastmod>2017-12-07T09:21:23.540Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://shup.cn/2017/11/21/cdn.html</loc>
-        <lastmod>2017-12-07T09:20:42.891Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://shup.cn/2017/11/16/hexo.html</loc>
-        <lastmod>2017-12-07T09:20:27.209Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://shup.cn/2017/11/23/ss.html</loc>
-        <lastmod>2017-12-07T09:19:40.961Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

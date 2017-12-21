@@ -95,7 +95,7 @@
 <meta property="og:image" content="https://cdn.shup.cn/hexo/ssh-run.png">
 <meta property="og:image" content="https://cdn.shup.cn/hexo/pwd.png">
 <meta property="og:image" content="https://cdn.shup.cn/hexo/nginx.png">
-<meta property="og:updated_time" content="2017-12-07T09:20:27.209Z">
+<meta property="og:updated_time" content="2017-12-21T07:34:21.543Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="在阿里云VPS上部署Hexo">
 <meta name="twitter:description" content="自双11购入了阿里云的VPS后，一直想着捯饬些什么，首当其冲的就是搭一个博客站点。之前使用过WordPress、Joomla、Drupal、国人的Typecho、Emlog、Zblog等。前几个国外的博客虽然功能、插件、模版丰富，但感觉略显臃肿，过多冗余之处，不适合做个人站点使用，尤其不适合笔者的1G1M的小水管主机。而国人的Typecho、Emlog感觉不错，安装使用简单、占用内存少、界面清新，">
@@ -354,7 +354,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  3,309 字
+                  3,328 字
                 </span>
               
 
@@ -424,7 +424,9 @@
 <figure class="highlight ebnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">hexo s</span></span><br></pre></td></tr></table></figure>
 <p>这条命令会在本地启动服务器，访问地址为<code>localhost:4000</code>，主要是我们正式发布前预览测试用的，启动后你编辑文章和主题等都可以直接更新到该网址，非常方便！但是注意，编辑站点配置文件<code>_config.yml</code>是需要重启该服务器才生效的。现在我们就看下自带<code>hello-world.md</code>的预览效果吧。还是蛮酷炫的吧！</p>
 <img src="https://cdn.shup.cn/hexo/hello.png" width="400" height="300"> 
-<p>这里有个坑吐槽一下，若Win安装了福某PDF阅读器会占用4000端口，需要用<code>hexo s -p 5000</code>命令把端口换成5000来执行启动。</p>
+<blockquote>
+<p>这里要吐槽一下，若Win安装了Foxit PDF阅读器会占用4000端口，需要用<code>hexo s -p 5000</code>命令把端口换成5000来执行启动。或者把foxit文件夹里的某个protect.exe删除，是它占用了4000端口。</p>
+</blockquote>
 </li>
 <li><p>生成静态文件</p>
 <figure class="highlight ebnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">hexo g</span></span><br></pre></td></tr></table></figure>

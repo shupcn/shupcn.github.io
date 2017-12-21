@@ -96,7 +96,7 @@
 <meta property="og:image" content="https://cdn.shup.cn/ss/firewall.png">
 <meta property="og:image" content="https://cdn.shup.cn/ss/putty.png">
 <meta property="og:image" content="https://cdn.shup.cn/ss/ssh.png">
-<meta property="og:updated_time" content="2017-12-07T09:19:40.961Z">
+<meta property="og:updated_time" content="2017-12-21T07:28:54.924Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="利用免费的Google Cloud来部署科学上网神器SS">
 <meta name="twitter:description" content="之前一直想搞个搬瓦工或者vultr的VPS来部署SS，实现科(V)学(P)上(N)网，但始终抢不到优惠的实例。偶然间发现Google Cloud在免费，而且貌似免费期从之前的2个月提高到1年，这样看来不用花一分钱，即可实现爱(翻)国(墙)上网，还可以再享受配置、性能更高、更稳定Google服务器，岂不美哉！">
@@ -407,8 +407,9 @@
 <li>地区选择美国，然后同意服务条款后，账户类型选择<strong>个人</strong>，填上地址、信用卡信息，即可开通账户。<img src="https://cdn.shup.cn/ss/first.png" width="400" height="300"></li>
 <li>开通后创建VM实例，按照下面2张图配置即可，笔者选的是1核1G内存10G硬盘CENTOS6系统，asia-east1-c节点(台湾)。也可根据自己需求选择配置。另外在网络那里选择添加外部静态IP(即公网IP地址)。最后点创建即可开通云主机。<img src="https://cdn.shup.cn/ss/kaitong1.png" width="400" height="300" title="配置云主机">
 <img src="https://cdn.shup.cn/ss/kaitong2.png" width="400" height="300" title="配置公网IP">
-这里说一下配置的选择及价格：主机的价格表不在此列举，自己选择适合的。公网IP基本上是免费，那就来梳理一下流量的计费方式：</li>
+</li>
 </ol>
+<p>这里说一下配置的选择及价格：主机的价格表不在此列举，自己选择适合的。公网IP基本上是免费，那就来梳理一下流量的计费方式：</p>
 <table>
 <thead>
 <tr>
@@ -492,9 +493,9 @@
 <img src="https://cdn.shup.cn/ss/putty.png" width="400" height="300">
 <p>连接成功后，输入<code>sudo -i</code>即可获得root权限。</p>
 <img src="https://cdn.shup.cn/ss/ssh.png" width="400" height="300">
-<h1 id="SS的安装与配置"><a href="#SS的安装与配置" class="headerlink" title="SS的安装与配置"></a>SS的安装与配置</h1><p>先来说说SS特点 ：</p>
 </li>
 </ol>
+<h1 id="SS的安装与配置"><a href="#SS的安装与配置" class="headerlink" title="SS的安装与配置"></a>SS的安装与配置</h1><p>先来说说SS特点 ：</p>
 <ul>
 <li>省电（在电量查看里几乎看不到它的身影）</li>
 <li>支持开机自启动，且断网无影响，无需手动重连</li>
